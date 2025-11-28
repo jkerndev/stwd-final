@@ -1,0 +1,664 @@
+2025-08-25 19:24:38,916 [scrapy.utils.log] INFO: Scrapy 2.13.3 started (bot: scrapybot)
+2025-08-25 19:24:38,968 [scrapy.utils.log] INFO: Versions:
+{'lxml': '6.0.1',
+ 'libxml2': '2.11.9',
+ 'cssselect': '1.3.0',
+ 'parsel': '1.10.0',
+ 'w3lib': '2.3.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 '
+           '64 bit (AMD64)]',
+ 'pyOpenSSL': '25.1.0 (OpenSSL 3.5.2 5 Aug 2025)',
+ 'cryptography': '45.0.6',
+ 'Platform': 'Windows-11-10.0.26100-SP0'}
+2025-08-25 19:24:38,969 [scrapy.addons] INFO: Enabled addons:
+[]
+2025-08-25 19:24:38,972 [asyncio] DEBUG: Using selector: SelectSelector
+2025-08-25 19:24:38,973 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2025-08-25 19:24:38,973 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2025-08-25 19:24:38,976 [scrapy.extensions.telnet] INFO: Telnet Password: bdc42d93f1e3d267
+2025-08-25 19:24:38,992 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2025-08-25 19:24:38,992 [scrapy.crawler] INFO: Overridden settings:
+{'AUTOTHROTTLE_ENABLED': True,
+ 'AUTOTHROTTLE_MAX_DELAY': 10,
+ 'AUTOTHROTTLE_START_DELAY': 0.5,
+ 'AUTOTHROTTLE_TARGET_CONCURRENCY': 2.0,
+ 'CONCURRENT_REQUESTS': 2,
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 2,
+ 'DOWNLOAD_DELAY': 0.5,
+ 'DOWNLOAD_TIMEOUT': 30}
+2025-08-25 19:24:39,073 [asyncio] DEBUG: Using proactor: IocpProactor
+2025-08-25 19:24:39,074 [scrapy-playwright] INFO: Started loop on separate thread: <ProactorEventLoop running=True closed=False debug=False>
+2025-08-25 19:24:39,327 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2025-08-25 19:24:39,331 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-08-25 19:24:39,332 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2025-08-25 19:24:39,332 [scrapy.core.engine] INFO: Spider opened
+2025-08-25 19:24:39,337 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:24:39,338 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-08-25 19:24:39,338 [scrapy-playwright] INFO: Starting download handler
+2025-08-25 19:24:39,338 [scrapy-playwright] INFO: Starting download handler
+2025-08-25 19:24:39,628 [__main__] INFO: ================================================================================
+2025-08-25 19:24:39,628 [__main__] INFO: SPIDER STARTING
+2025-08-25 19:24:39,628 [__main__] INFO: Start time: 2025-08-25 19:24:39.628832
+2025-08-25 19:24:39,628 [__main__] INFO: ================================================================================
+2025-08-25 19:24:39,629 [__main__] INFO: Creating initial request for team: curl - URL: https://hackerone.com/curl/hacktivity?type=team
+2025-08-25 19:24:39,630 [scrapy-playwright] INFO: Launching browser chromium
+2025-08-25 19:24:39,683 [scrapy-playwright] INFO: Browser chromium launched
+2025-08-25 19:24:39,690 [scrapy-playwright] DEBUG: Browser context started: 'default' (persistent=False, remote=False)
+2025-08-25 19:24:39,756 [scrapy-playwright] DEBUG: [Context=default] New page created, page count is 1 (1 for all contexts)
+2025-08-25 19:24:39,766 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/curl/hacktivity?type=team> (resource type: document)
+2025-08-25 19:24:39,978 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/curl/hacktivity?type=team>
+2025-08-25 19:24:40,003 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/main_css-C2N2sWdi.css> (resource type: stylesheet, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:24:40,003 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/main_js-CL1J4A1f.css> (resource type: stylesheet, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:24:40,004 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/constants-2daa29fd457e4ec9673342534620e41f1ddb7606b6a109915f3684635de800cc.js> (resource type: script, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:24:40,005 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/main_js-C_XxFMQ9.js> (resource type: script, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:24:40,096 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/main_css-C2N2sWdi.css>
+2025-08-25 19:24:40,127 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/main_js-CL1J4A1f.css>
+2025-08-25 19:24:40,128 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/constants-2daa29fd457e4ec9673342534620e41f1ddb7606b6a109915f3684635de800cc.js>
+2025-08-25 19:24:40,252 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/main_js-C_XxFMQ9.js>
+2025-08-25 19:24:40,252 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/vendor-DH6SDQrC.js> (resource type: script, referrer: https://hackerone.com/assets/static/main_js-C_XxFMQ9.js)
+2025-08-25 19:24:40,870 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/vendor-DH6SDQrC.js>
+2025-08-25 19:24:41,583 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://errors.hackerone.net/api/26/envelope/?sentry_version=7&sentry_key=90427e0cbcf0487db664e4357d17761b&sentry_client=sentry.javascript.browser%2F8.55.0> (resource type: fetch, referrer: https://hackerone.com/)
+2025-08-25 19:24:41,606 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:24:41,607 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:24:41,775 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:24:41,781 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://errors.hackerone.net/api/26/envelope/?sentry_version=7&sentry_key=90427e0cbcf0487db664e4357d17761b&sentry_client=sentry.javascript.browser%2F8.55.0>
+2025-08-25 19:24:41,807 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:24:41,862 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/team_profile_router-DTX-TJHd.js> (resource type: script)
+2025-08-25 19:24:41,862 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/index-CDacoudp.js> (resource type: script)
+2025-08-25 19:24:41,863 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/index-CsoKD2co.js> (resource type: script)
+2025-08-25 19:24:41,864 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/format_bytes-CzSg1pdq.js> (resource type: script)
+2025-08-25 19:24:41,865 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/max_groups_banner-8zOiXw0P.js> (resource type: script)
+2025-08-25 19:24:41,866 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/random-BDGgln3v.js> (resource type: script)
+2025-08-25 19:24:41,866 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/_baseRandom-C4i3oSs_.js> (resource type: script)
+2025-08-25 19:24:41,867 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/wizard_row-C-bklIc6.js> (resource type: script)
+2025-08-25 19:24:41,868 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/severity--p6iqX29.js> (resource type: script)
+2025-08-25 19:24:41,869 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/snakecase_to_camelcase-Gf4ukmYL.js> (resource type: script)
+2025-08-25 19:24:41,869 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/errors_humanizer-Q3wKIc8o.js> (resource type: script)
+2025-08-25 19:24:41,870 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/better_report_form-Dd0eh8Ux.js> (resource type: script)
+2025-08-25 19:24:41,871 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/analytics-DK94ud7l.js> (resource type: script)
+2025-08-25 19:24:41,871 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/logo-DLRloGIj.js> (resource type: script)
+2025-08-25 19:24:41,872 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/outline-CLH0LJPI.js> (resource type: script)
+2025-08-25 19:24:41,873 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/mapKeys-Bn0GDFak.js> (resource type: script)
+2025-08-25 19:24:41,873 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/v4-SoommWqA.js> (resource type: script)
+2025-08-25 19:24:41,874 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/index-BAV188oF.js> (resource type: script)
+2025-08-25 19:24:41,875 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/index-BiWmMrYJ.css> (resource type: stylesheet, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:24:41,876 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/full_hacktivity-DAJLQmh4.js> (resource type: script)
+2025-08-25 19:24:41,876 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/filters_sheet-In5kwT7x.js> (resource type: script)
+2025-08-25 19:24:41,877 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/outline-DKTgyO7F.js> (resource type: script)
+2025-08-25 19:24:41,878 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/read_reports-jTWILECD.js> (resource type: script)
+2025-08-25 19:24:41,878 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/pentest_header-D6jCmSn8.js> (resource type: script)
+2025-08-25 19:24:41,879 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/index-D2N82N7b.js> (resource type: script)
+2025-08-25 19:24:41,880 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/index-DUdQpVuk.css> (resource type: stylesheet, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:24:41,881 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/skill_selector-nDYJIJnF.js> (resource type: script)
+2025-08-25 19:24:41,882 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/skill_selector_helpers-CD3h59l1.js> (resource type: script)
+2025-08-25 19:24:41,882 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/index.module-DzfxJ-ah.js> (resource type: script)
+2025-08-25 19:24:41,883 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/index-OJGPsZIM.js> (resource type: script)
+2025-08-25 19:24:41,884 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/use_previous-B_O_Hyhu.js> (resource type: script)
+2025-08-25 19:24:41,884 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/program_health_acknowledgement-SJ0YGmAm.js> (resource type: script)
+2025-08-25 19:24:41,885 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:24:41,886 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:24:41,886 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:24:41,887 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:24:41,888 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:24:41,889 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:24:41,889 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:24:41,945 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/_baseRandom-C4i3oSs_.js>
+2025-08-25 19:24:41,947 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/max_groups_banner-8zOiXw0P.js>
+2025-08-25 19:24:41,958 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/format_bytes-CzSg1pdq.js>
+2025-08-25 19:24:41,959 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/wizard_row-C-bklIc6.js>
+2025-08-25 19:24:41,961 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/random-BDGgln3v.js>
+2025-08-25 19:24:41,962 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/index-CsoKD2co.js>
+2025-08-25 19:24:41,985 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/index.module-DzfxJ-ah.js>
+2025-08-25 19:24:41,985 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/read_reports-jTWILECD.js>
+2025-08-25 19:24:41,985 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/skill_selector_helpers-CD3h59l1.js>
+2025-08-25 19:24:41,986 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/snakecase_to_camelcase-Gf4ukmYL.js>
+2025-08-25 19:24:41,986 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/outline-DKTgyO7F.js>
+2025-08-25 19:24:41,987 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/index-BiWmMrYJ.css>
+2025-08-25 19:24:41,987 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/analytics-DK94ud7l.js>
+2025-08-25 19:24:41,988 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/program_health_acknowledgement-SJ0YGmAm.js>
+2025-08-25 19:24:41,989 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/severity--p6iqX29.js>
+2025-08-25 19:24:41,990 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/errors_humanizer-Q3wKIc8o.js>
+2025-08-25 19:24:41,992 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/index-BAV188oF.js>
+2025-08-25 19:24:41,998 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/full_hacktivity-DAJLQmh4.js>
+2025-08-25 19:24:42,002 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/skill_selector-nDYJIJnF.js>
+2025-08-25 19:24:42,007 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/pentest_header-D6jCmSn8.js>
+2025-08-25 19:24:42,008 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/team_profile_router-DTX-TJHd.js>
+2025-08-25 19:24:42,008 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/index-OJGPsZIM.js>
+2025-08-25 19:24:42,009 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/index-D2N82N7b.js>
+2025-08-25 19:24:42,014 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/use_previous-B_O_Hyhu.js>
+2025-08-25 19:24:42,018 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/mapKeys-Bn0GDFak.js>
+2025-08-25 19:24:42,018 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/outline-CLH0LJPI.js>
+2025-08-25 19:24:42,030 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:24:42,030 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/v4-SoommWqA.js>
+2025-08-25 19:24:42,033 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/better_report_form-Dd0eh8Ux.js>
+2025-08-25 19:24:42,040 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:24:42,041 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/index-CDacoudp.js>
+2025-08-25 19:24:42,050 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:24:42,054 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/logo-DLRloGIj.js>
+2025-08-25 19:24:42,058 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/index-DUdQpVuk.css>
+2025-08-25 19:24:42,064 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/filters_sheet-In5kwT7x.js>
+2025-08-25 19:24:42,091 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:24:42,091 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:24:42,116 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/curl> (resource type: xhr, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:24:42,117 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/effra-regular-D_4fK4bl.woff> (resource type: font, referrer: https://hackerone.com/assets/static/main_css-C2N2sWdi.css)
+2025-08-25 19:24:42,117 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://hackerone.com/assets/static/effra-medium-BqNDoijG.woff> (resource type: font, referrer: https://hackerone.com/assets/static/main_css-C2N2sWdi.css)
+2025-08-25 19:24:42,118 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:24:42,127 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:24:42,137 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=513d5edc-96fa-4f0a-8359-f45cb05db896&batch_time=1756171482132> (resource type: fetch, referrer: https://hackerone.com/)
+2025-08-25 19:24:42,138 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=7ea6f502-141c-4d74-a3b4-0fbe06dbe60e&batch_time=1756171482134> (resource type: fetch, referrer: https://hackerone.com/)
+2025-08-25 19:24:42,144 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:24:42,186 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/effra-regular-D_4fK4bl.woff>
+2025-08-25 19:24:42,197 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/assets/static/effra-medium-BqNDoijG.woff>
+2025-08-25 19:24:42,276 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/curl>
+2025-08-25 19:24:42,483 [scrapy-playwright] DEBUG: [Context=default] Response: <202 https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=513d5edc-96fa-4f0a-8359-f45cb05db896&batch_time=1756171482132>
+2025-08-25 19:24:42,506 [scrapy-playwright] DEBUG: [Context=default] Response: <202 https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=7ea6f502-141c-4d74-a3b4-0fbe06dbe60e&batch_time=1756171482134>
+2025-08-25 19:24:42,609 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/events> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:24:42,713 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:24:42,746 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:24:42,746 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:24:42,747 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:24:42,748 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:24:42,748 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:24:42,750 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:24:42,754 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=1651ad42-3857-4ab6-90c6-fac0145a659e&batch_time=1756171482752> (resource type: fetch, referrer: https://hackerone.com/)
+2025-08-25 19:24:42,755 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/events>
+2025-08-25 19:24:42,867 [scrapy-playwright] DEBUG: [Context=default] Response: <202 https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=1651ad42-3857-4ab6-90c6-fac0145a659e&batch_time=1756171482752>
+2025-08-25 19:24:42,891 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:24:42,904 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:24:42,917 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://profile-photos.hackerone-user-content.com/variants/000/035/663/2faf4c279d437d64bfda6d23d62ce1833813a4d9_original.png/605ddd0d58d07118d6a6a5befb99f504d0f3dbd17377ad2da034d517b5a69ea6> (resource type: image, referrer: https://hackerone.com/)
+2025-08-25 19:24:42,917 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:24:42,918 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:24:42,958 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:24:43,060 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:24:43,083 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:24:43,132 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:24:43,180 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://profile-photos.hackerone-user-content.com/variants/000/035/663/2faf4c279d437d64bfda6d23d62ce1833813a4d9_original.png/19c85a12ac35f466af1ea2b0ae853bfe5e8f057fb1d6fb62db131707bb67b30d> (resource type: image, referrer: https://hackerone.com/)
+2025-08-25 19:24:43,181 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://profile-photos.hackerone-user-content.com/variants/000/035/663/2faf4c279d437d64bfda6d23d62ce1833813a4d9_original.png/605ddd0d58d07118d6a6a5befb99f504d0f3dbd17377ad2da034d517b5a69ea6>
+2025-08-25 19:24:43,192 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:24:43,201 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:24:43,216 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=4d9fc9ed-02fc-4019-80cd-b804a2535efa&batch_time=1756171483213> (resource type: fetch, referrer: https://hackerone.com/)
+2025-08-25 19:24:43,221 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://profile-photos.hackerone-user-content.com/variants/000/035/663/2faf4c279d437d64bfda6d23d62ce1833813a4d9_original.png/19c85a12ac35f466af1ea2b0ae853bfe5e8f057fb1d6fb62db131707bb67b30d>
+2025-08-25 19:24:43,312 [scrapy-playwright] DEBUG: [Context=default] Response: <202 https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=4d9fc9ed-02fc-4019-80cd-b804a2535efa&batch_time=1756171483213>
+2025-08-25 19:24:43,515 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://hackerone.com/curl/hacktivity?type=team> (referer: None) ['playwright']
+2025-08-25 19:24:43,617 [__main__] INFO: ================================================================================
+2025-08-25 19:24:43,617 [__main__] INFO: PARSING HACKTIVITY PAGE
+2025-08-25 19:24:43,617 [__main__] INFO: Request ID: initial_curl
+2025-08-25 19:24:43,617 [__main__] INFO: URL: https://hackerone.com/curl/hacktivity?type=team
+2025-08-25 19:24:43,618 [__main__] INFO: Time since request start: 3.99s
+2025-08-25 19:24:43,618 [__main__] INFO: ================================================================================
+2025-08-25 19:24:43,618 [__main__] INFO: Starting infinite scroll for team: curl
+2025-08-25 19:24:43,618 [__main__] INFO: Starting scroll process (max attempts: 5)
+2025-08-25 19:24:44,644 [__main__] DEBUG: Scrolling... (attempt 1)
+2025-08-25 19:24:44,655 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:24:45,037 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:24:45,122 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://profile-photos.hackerone-user-content.com/variants/000/035/663/2faf4c279d437d64bfda6d23d62ce1833813a4d9_original.png/19c85a12ac35f466af1ea2b0ae853bfe5e8f057fb1d6fb62db131707bb67b30d> (resource type: image, referrer: https://hackerone.com/)
+2025-08-25 19:24:45,163 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://profile-photos.hackerone-user-content.com/variants/000/035/663/2faf4c279d437d64bfda6d23d62ce1833813a4d9_original.png/19c85a12ac35f466af1ea2b0ae853bfe5e8f057fb1d6fb62db131707bb67b30d>
+2025-08-25 19:24:54,632 [__main__] INFO: Scroll attempt 1, items loaded: 25
+2025-08-25 19:24:59,639 [__main__] DEBUG: Scrolling... (attempt 2)
+2025-08-25 19:24:59,658 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:25:00,000 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:25:00,105 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://profile-photos.hackerone-user-content.com/variants/000/035/663/2faf4c279d437d64bfda6d23d62ce1833813a4d9_original.png/19c85a12ac35f466af1ea2b0ae853bfe5e8f057fb1d6fb62db131707bb67b30d> (resource type: image, referrer: https://hackerone.com/)
+2025-08-25 19:25:00,147 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://profile-photos.hackerone-user-content.com/variants/000/035/663/2faf4c279d437d64bfda6d23d62ce1833813a4d9_original.png/19c85a12ac35f466af1ea2b0ae853bfe5e8f057fb1d6fb62db131707bb67b30d>
+2025-08-25 19:25:09,629 [__main__] INFO: Scroll attempt 2, items loaded: 50
+2025-08-25 19:25:13,222 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=4da94031-c02d-480c-b1e6-80413efcb19c&batch_time=1756171513220> (resource type: fetch, referrer: https://hackerone.com/)
+2025-08-25 19:25:13,327 [scrapy-playwright] DEBUG: [Context=default] Response: <202 https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=4da94031-c02d-480c-b1e6-80413efcb19c&batch_time=1756171513220>
+2025-08-25 19:25:14,631 [__main__] DEBUG: Scrolling... (attempt 3)
+2025-08-25 19:25:14,640 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:25:15,094 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:25:15,231 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://profile-photos.hackerone-user-content.com/variants/000/035/663/2faf4c279d437d64bfda6d23d62ce1833813a4d9_original.png/19c85a12ac35f466af1ea2b0ae853bfe5e8f057fb1d6fb62db131707bb67b30d> (resource type: image, referrer: https://hackerone.com/)
+2025-08-25 19:25:15,270 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://profile-photos.hackerone-user-content.com/variants/000/035/663/2faf4c279d437d64bfda6d23d62ce1833813a4d9_original.png/19c85a12ac35f466af1ea2b0ae853bfe5e8f057fb1d6fb62db131707bb67b30d>
+2025-08-25 19:25:24,636 [__main__] INFO: Scroll attempt 3, items loaded: 75
+2025-08-25 19:25:29,643 [__main__] DEBUG: Scrolling... (attempt 4)
+2025-08-25 19:25:29,656 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:25:30,028 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:25:30,206 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://profile-photos.hackerone-user-content.com/variants/000/035/663/2faf4c279d437d64bfda6d23d62ce1833813a4d9_original.png/19c85a12ac35f466af1ea2b0ae853bfe5e8f057fb1d6fb62db131707bb67b30d> (resource type: image, referrer: https://hackerone.com/)
+2025-08-25 19:25:30,245 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://profile-photos.hackerone-user-content.com/variants/000/035/663/2faf4c279d437d64bfda6d23d62ce1833813a4d9_original.png/19c85a12ac35f466af1ea2b0ae853bfe5e8f057fb1d6fb62db131707bb67b30d>
+2025-08-25 19:25:39,328 [__main__] INFO: Scroll attempt 4, items loaded: 100
+2025-08-25 19:25:39,343 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:25:39,639 [__main__] DEBUG: Scrolling... (attempt 5)
+2025-08-25 19:25:39,656 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:25:40,011 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:25:40,203 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://profile-photos.hackerone-user-content.com/variants/000/035/663/2faf4c279d437d64bfda6d23d62ce1833813a4d9_original.png/19c85a12ac35f466af1ea2b0ae853bfe5e8f057fb1d6fb62db131707bb67b30d> (resource type: image, referrer: https://hackerone.com/)
+2025-08-25 19:25:40,242 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://profile-photos.hackerone-user-content.com/variants/000/035/663/2faf4c279d437d64bfda6d23d62ce1833813a4d9_original.png/19c85a12ac35f466af1ea2b0ae853bfe5e8f057fb1d6fb62db131707bb67b30d>
+2025-08-25 19:25:45,286 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=422e439d-4c38-4a3e-a556-749993ea1cd5&batch_time=1756171545285> (resource type: fetch, referrer: https://hackerone.com/)
+2025-08-25 19:25:45,386 [scrapy-playwright] DEBUG: [Context=default] Response: <202 https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=422e439d-4c38-4a3e-a556-749993ea1cd5&batch_time=1756171545285>
+2025-08-25 19:25:49,635 [__main__] INFO: Scroll attempt 5, items loaded: 125
+2025-08-25 19:25:49,635 [__main__] INFO: Scroll completed in 66.02s
+2025-08-25 19:25:49,635 [__main__] INFO: Querying for hacktivity items...
+2025-08-25 19:25:54,685 [__main__] DEBUG: Processing item 1/150
+2025-08-25 19:26:34,639 [__main__] DEBUG: Metadata extraction took 25.002s for: Missing Security Headers
+2025-08-25 19:26:34,639 [__main__] DEBUG: Processing item 2/150
+2025-08-25 19:26:39,348 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:26:59,630 [__main__] DEBUG: Metadata extraction took 19.988s for: curl leaks destination IP via glibc getaddrinfo() 
+2025-08-25 19:26:59,630 [__main__] DEBUG: Processing item 3/150
+2025-08-25 19:27:39,331 [__main__] DEBUG: Metadata extraction took 24.688s for: Curl parse_connect_to_string Heap-Overread Leading
+2025-08-25 19:27:39,331 [__main__] DEBUG: Processing item 4/150
+2025-08-25 19:27:39,347 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:28:09,639 [__main__] DEBUG: Metadata extraction took 24.998s for: WebSocket Fragmentation DoS on Curl Client
+2025-08-25 19:28:09,639 [__main__] DEBUG: Processing item 5/150
+2025-08-25 19:28:39,340 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:28:44,639 [__main__] DEBUG: Metadata extraction took 19.998s for: ## Title Heap Use-After-Free Vulnerability in `cur
+2025-08-25 19:28:44,640 [__main__] DEBUG: Processing item 6/150
+2025-08-25 19:29:24,630 [__main__] DEBUG: Metadata extraction took 24.999s for: Account/Repository Takeover via Abandoned GitHub U
+2025-08-25 19:29:24,630 [__main__] DEBUG: Processing item 7/150
+2025-08-25 19:29:39,339 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:29:41,611 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:29:41,787 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:29:59,643 [__main__] DEBUG: Metadata extraction took 20.304s for: Insecure WebSocket Usage in curl Documentation and
+2025-08-25 19:29:59,643 [__main__] DEBUG: Processing item 8/150
+2025-08-25 19:30:11,804 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=439b8b55-e717-4488-bd40-821e8b0f220c&batch_time=1756171811802> (resource type: fetch, referrer: https://hackerone.com/)
+2025-08-25 19:30:12,090 [scrapy-playwright] DEBUG: [Context=default] Response: <202 https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=439b8b55-e717-4488-bd40-821e8b0f220c&batch_time=1756171811802>
+2025-08-25 19:30:39,342 [__main__] DEBUG: Metadata extraction took 24.711s for: Unsafe Global IFS Modification in OS400 Shell Scri
+2025-08-25 19:30:39,342 [__main__] DEBUG: Processing item 9/150
+2025-08-25 19:30:39,343 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:31:14,641 [__main__] DEBUG: Metadata extraction took 25.004s for: Exposure of Hard-coded Private Keys and Credential
+2025-08-25 19:31:14,642 [__main__] DEBUG: Processing item 10/150
+2025-08-25 19:31:39,339 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:31:49,635 [__main__] DEBUG: Metadata extraction took 20.001s for: Title: Remote Code Execution (RCE) via Arbitrary L
+2025-08-25 19:31:49,635 [__main__] DEBUG: Processing item 11/150
+2025-08-25 19:32:29,632 [__main__] DEBUG: Metadata extraction took 24.992s for: Path Traversal in SFTP QUOTE command leads to Arbi
+2025-08-25 19:32:29,632 [__main__] DEBUG: Processing item 12/150
+2025-08-25 19:32:39,343 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:33:04,641 [__main__] DEBUG: Metadata extraction took 25.002s for: Vulnerability Report: Local File Disclosure via fi
+2025-08-25 19:33:04,641 [__main__] DEBUG: Processing item 13/150
+2025-08-25 19:33:39,340 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:33:39,634 [__main__] DEBUG: Metadata extraction took 20.002s for: Heap Buffer Overflow in Curl_memdup0() via CURLOPT
+2025-08-25 19:33:39,634 [__main__] DEBUG: Processing item 14/150
+2025-08-25 19:34:14,632 [__main__] DEBUG: Metadata extraction took 19.994s for: Use After Free (that leads to arbitrary Write for 
+2025-08-25 19:34:14,632 [__main__] DEBUG: Processing item 15/150
+2025-08-25 19:34:39,338 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:34:41,796 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:34:41,955 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:34:49,644 [__main__] DEBUG: Metadata extraction took 20.009s for: Integer Overflow in schannel.c TLS Data Transmissi
+2025-08-25 19:34:49,644 [__main__] DEBUG: Processing item 16/150
+2025-08-25 19:35:11,957 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=f46938d1-80e0-4938-8332-e27b59fa82fe&batch_time=1756172111956> (resource type: fetch, referrer: https://hackerone.com/)
+2025-08-25 19:35:12,267 [scrapy-playwright] DEBUG: [Context=default] Response: <202 https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=f46938d1-80e0-4938-8332-e27b59fa82fe&batch_time=1756172111956>
+2025-08-25 19:35:29,635 [__main__] DEBUG: Metadata extraction took 25.005s for: Stack use-after-scope in HTTP/3 POST request proce
+2025-08-25 19:35:29,635 [__main__] DEBUG: Processing item 17/150
+2025-08-25 19:35:39,344 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:35:54,637 [__main__] DEBUG: Metadata extraction took 15.294s for: OpenSSL HTTP/3 bogus CURLINFO_TLS_SSL_PTR
+2025-08-25 19:35:54,638 [__main__] DEBUG: Processing item 18/150
+2025-08-25 19:36:34,640 [__main__] DEBUG: Metadata extraction took 24.999s for: Vulnerability Report: Public Exposure of Security 
+2025-08-25 19:36:34,640 [__main__] DEBUG: Processing item 19/150
+2025-08-25 19:36:39,347 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:37:04,640 [__main__] DEBUG: Metadata extraction took 24.999s for: Security check up
+2025-08-25 19:37:04,640 [__main__] DEBUG: Processing item 20/150
+2025-08-25 19:37:39,340 [__main__] DEBUG: Metadata extraction took 19.699s for: Use after free (or assert triggered) with failed a
+2025-08-25 19:37:39,340 [__main__] DEBUG: Processing item 21/150
+2025-08-25 19:37:39,341 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:38:09,636 [__main__] DEBUG: Metadata extraction took 19.995s for: Exposure of Private RSA Private Key in curl GitHub
+2025-08-25 19:38:09,636 [__main__] DEBUG: Processing item 22/150
+2025-08-25 19:38:39,344 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:38:39,638 [__main__] DEBUG: Metadata extraction took 14.999s for: GnuTLS CURLINFO_TLS_SESSION / CURLINFO_TLS_SSL_PTR
+2025-08-25 19:38:39,638 [__main__] DEBUG: Processing item 23/150
+2025-08-25 19:39:19,642 [__main__] DEBUG: Metadata extraction took 24.999s for: on the implications of permitting procedural culli
+2025-08-25 19:39:19,642 [__main__] DEBUG: Processing item 24/150
+2025-08-25 19:39:39,351 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:39:41,962 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:39:42,096 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:39:44,632 [__main__] DEBUG: Metadata extraction took 10.001s for: curl ASSERTs when accessing an LDAP URL
+2025-08-25 19:39:44,632 [__main__] DEBUG: Processing item 25/150
+2025-08-25 19:40:12,113 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=056b469e-4726-4fad-9c16-880385fcfe83&batch_time=1756172412112> (resource type: fetch, referrer: https://hackerone.com/)
+2025-08-25 19:40:12,399 [scrapy-playwright] DEBUG: [Context=default] Response: <202 https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=056b469e-4726-4fad-9c16-880385fcfe83&batch_time=1756172412112>
+2025-08-25 19:40:24,639 [__main__] DEBUG: Metadata extraction took 25.000s for: Disk Space Exhaustion leading to a Denial of Servi
+2025-08-25 19:40:24,639 [__main__] DEBUG: Processing item 26/150
+2025-08-25 19:40:39,352 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:40:54,635 [__main__] DEBUG: Metadata extraction took 15.299s for: Uncontrolled File Write/Arbitrary File Creation
+2025-08-25 19:40:54,635 [__main__] DEBUG: Processing item 27/150
+2025-08-25 19:41:34,641 [__main__] DEBUG: Metadata extraction took 25.007s for: HTTP Request Smuggling Vulnerability Analysis - cU
+2025-08-25 19:41:34,641 [__main__] DEBUG: Processing item 28/150
+2025-08-25 19:41:39,341 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:42:09,640 [__main__] DEBUG: Metadata extraction took 25.007s for: Default Minimum TLS Version Set to TLS v1.0 (Crypt
+2025-08-25 19:42:09,640 [__main__] DEBUG: Processing item 29/150
+2025-08-25 19:42:39,344 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:42:39,639 [__main__] DEBUG: Metadata extraction took 15.011s for: Use-After-Free in OpenSSL Keylog Callback via SSL_
+2025-08-25 19:42:39,639 [__main__] DEBUG: Processing item 30/150
+2025-08-25 19:43:19,635 [__main__] DEBUG: Metadata extraction took 25.004s for: Arbitrary File Read via file:// Protocol in cURL
+2025-08-25 19:43:19,636 [__main__] DEBUG: Processing item 31/150
+2025-08-25 19:43:39,349 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:43:54,629 [__main__] DEBUG: Metadata extraction took 19.987s for: access notes without permission
+2025-08-25 19:43:54,629 [__main__] DEBUG: Processing item 32/150
+2025-08-25 19:44:34,632 [__main__] DEBUG: Metadata extraction took 25.002s for: Disclosure of email addresses
+2025-08-25 19:44:34,632 [__main__] DEBUG: Processing item 33/150
+2025-08-25 19:44:39,344 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:44:42,104 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:44:42,248 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:45:04,643 [__main__] DEBUG: Metadata extraction took 25.006s for: curl --continue-at confusion
+2025-08-25 19:45:04,643 [__main__] DEBUG: Processing item 34/150
+2025-08-25 19:45:12,115 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=e156e1ae-c968-45d3-982e-c19fe0eddb5c&batch_time=1756172712113> (resource type: fetch, referrer: https://hackerone.com/)
+2025-08-25 19:45:12,408 [scrapy-playwright] DEBUG: [Context=default] Response: <202 https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=e156e1ae-c968-45d3-982e-c19fe0eddb5c&batch_time=1756172712113>
+2025-08-25 19:45:39,343 [__main__] DEBUG: Metadata extraction took 19.702s for: Information Disclosure at : https://curl.se/.mailm
+2025-08-25 19:45:39,343 [__main__] DEBUG: Processing item 35/150
+2025-08-25 19:45:39,344 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:46:14,635 [__main__] DEBUG: Metadata extraction took 25.003s for: information disclosure
+2025-08-25 19:46:14,635 [__main__] DEBUG: Processing item 36/150
+2025-08-25 19:46:39,347 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:46:39,641 [__main__] DEBUG: Metadata extraction took 10.008s for: netrc crlf injection
+2025-08-25 19:46:39,641 [__main__] DEBUG: Processing item 37/150
+2025-08-25 19:47:14,639 [__main__] DEBUG: Metadata extraction took 20.000s for: curl mishandles `%0c%0b` sequences in HTTP respons
+2025-08-25 19:47:14,639 [__main__] DEBUG: Processing item 38/150
+2025-08-25 19:47:39,351 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:47:44,633 [__main__] DEBUG: Metadata extraction took 14.995s for: Arbitrary File Deletion Vulnerability in curl Sour
+2025-08-25 19:47:44,634 [__main__] DEBUG: Processing item 39/150
+2025-08-25 19:48:24,634 [__main__] DEBUG: Metadata extraction took 25.001s for: -H with space prefix leads to previous header inje
+2025-08-25 19:48:24,634 [__main__] DEBUG: Processing item 40/150
+2025-08-25 19:48:39,343 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:48:59,640 [__main__] DEBUG: Metadata extraction took 20.298s for: OS Command Injection (subprocess Module Usage)
+2025-08-25 19:48:59,640 [__main__] DEBUG: Processing item 41/150
+2025-08-25 19:49:39,328 [__main__] DEBUG: Metadata extraction took 24.692s for: Git repository found
+2025-08-25 19:49:39,328 [__main__] DEBUG: Processing item 42/150
+2025-08-25 19:49:39,344 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:49:42,256 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:49:42,398 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:50:09,630 [__main__] DEBUG: Metadata extraction took 24.992s for: Integer Overflow Risk in HTTP/2 Proxy Window Size 
+2025-08-25 19:50:09,630 [__main__] DEBUG: Processing item 43/150
+2025-08-25 19:50:12,111 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=2dda6f2a-5b80-43cf-be4e-8fdd89e49ca1&batch_time=1756173012108> (resource type: fetch, referrer: https://hackerone.com/)
+2025-08-25 19:50:12,378 [scrapy-playwright] DEBUG: [Context=default] Response: <202 https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=2dda6f2a-5b80-43cf-be4e-8fdd89e49ca1&batch_time=1756173012108>
+2025-08-25 19:50:39,346 [__main__] DEBUG: Metadata extraction took 14.706s for: TLS Cipher Misconfiguration in HTTP/3/QUIC Support
+2025-08-25 19:50:39,346 [__main__] DEBUG: Processing item 44/150
+2025-08-25 19:50:39,347 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:51:14,637 [__main__] DEBUG: Metadata extraction took 25.005s for: CRLF injection in libcurl's SMTP client via --mail
+2025-08-25 19:51:14,637 [__main__] DEBUG: Processing item 45/150
+2025-08-25 19:51:39,346 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:51:44,628 [__main__] DEBUG: Metadata extraction took 14.996s for: curl doesn't hide credentials in /proc/XXX/cmdline
+2025-08-25 19:51:44,628 [__main__] DEBUG: Processing item 46/150
+2025-08-25 19:52:24,642 [__main__] DEBUG: Metadata extraction took 25.007s for: Elevation of Privileges (EoP) vulnerabilities rela
+2025-08-25 19:52:24,642 [__main__] DEBUG: Processing item 47/150
+2025-08-25 19:52:39,345 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:52:54,634 [__main__] DEBUG: Metadata extraction took 15.306s for: Authorization Header Leak via --location-trusted i
+2025-08-25 19:52:54,634 [__main__] DEBUG: Processing item 48/150
+2025-08-25 19:53:34,639 [__main__] DEBUG: Metadata extraction took 25.009s for: Memory leak of ftp (with proxy reuse)
+2025-08-25 19:53:34,639 [__main__] DEBUG: Processing item 49/150
+2025-08-25 19:53:39,348 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:54:04,641 [__main__] DEBUG: Metadata extraction took 25.000s for: HTTP Proxy Bypass via `CURLOPT_CUSTOMREQUEST` Verb
+2025-08-25 19:54:04,641 [__main__] DEBUG: Processing item 50/150
+2025-08-25 19:54:39,352 [__main__] DEBUG: Metadata extraction took 19.719s for: Speculative Execution Side-Channel in `curl`
+2025-08-25 19:54:39,352 [__main__] DEBUG: Processing item 51/150
+2025-08-25 19:54:39,353 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:54:42,407 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:54:42,550 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 19:55:12,115 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=645e94e8-8731-425b-b77a-c005ffdd3e49&batch_time=1756173312113> (resource type: fetch, referrer: https://hackerone.com/)
+2025-08-25 19:55:12,365 [scrapy-playwright] DEBUG: [Context=default] Response: <202 https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=645e94e8-8731-425b-b77a-c005ffdd3e49&batch_time=1756173312113>
+2025-08-25 19:55:14,635 [__main__] DEBUG: Metadata extraction took 24.999s for: arbitrary file read via `file://` path traversal w
+2025-08-25 19:55:14,635 [__main__] DEBUG: Processing item 52/150
+2025-08-25 19:55:39,345 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:55:44,641 [__main__] DEBUG: Metadata extraction took 15.006s for: Heap buffer overflow vulnerability in conncache.c:
+2025-08-25 19:55:44,641 [__main__] DEBUG: Processing item 53/150
+2025-08-25 19:56:24,642 [__main__] DEBUG: Metadata extraction took 25.002s for: curl -OJ allows creating custom .curlrc file which
+2025-08-25 19:56:24,642 [__main__] DEBUG: Processing item 54/150
+2025-08-25 19:56:39,346 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:56:49,629 [__main__] DEBUG: Metadata extraction took 10.299s for: curl_easy_header runs at O(N) or worse and can be 
+2025-08-25 19:56:49,629 [__main__] DEBUG: Processing item 55/150
+2025-08-25 19:57:29,628 [__main__] DEBUG: Metadata extraction took 24.985s for: [High] MITM via Insecure CA Path Handling in cURL 
+2025-08-25 19:57:29,628 [__main__] DEBUG: Processing item 56/150
+2025-08-25 19:57:39,339 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:58:04,634 [__main__] DEBUG: Metadata extraction took 25.001s for: [High] Arbitrary File Write via Path Traversal in 
+2025-08-25 19:58:04,634 [__main__] DEBUG: Processing item 57/150
+2025-08-25 19:58:39,345 [__main__] DEBUG: Metadata extraction took 19.701s for: Potential XSS vector in curl via unsanitized URL p
+2025-08-25 19:58:39,345 [__main__] DEBUG: Processing item 58/150
+2025-08-25 19:58:39,346 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:59:14,635 [__main__] DEBUG: Metadata extraction took 25.004s for: Double free caused by mqtt_doing()
+2025-08-25 19:59:14,635 [__main__] DEBUG: Processing item 59/150
+2025-08-25 19:59:39,352 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 19:59:39,630 [__main__] DEBUG: Metadata extraction took 9.996s for: Buffer Overflow in curl's Rustls Backend
+2025-08-25 19:59:39,630 [__main__] DEBUG: Processing item 60/150
+2025-08-25 19:59:42,560 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 19:59:42,819 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 20:00:12,122 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=fa0956dd-fc77-46a6-8a12-088b28f7f383&batch_time=1756173612121> (resource type: fetch, referrer: https://hackerone.com/)
+2025-08-25 20:00:12,411 [scrapy-playwright] DEBUG: [Context=default] Response: <202 https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=fa0956dd-fc77-46a6-8a12-088b28f7f383&batch_time=1756173612121>
+2025-08-25 20:00:19,636 [__main__] DEBUG: Metadata extraction took 24.993s for: Stack-based Buffer Overflow in TELNET NEW_ENV Opti
+2025-08-25 20:00:19,636 [__main__] DEBUG: Processing item 61/150
+2025-08-25 20:00:39,343 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:00:54,635 [__main__] DEBUG: Metadata extraction took 20.002s for: Heap Buffer Overflow in libcurl curl_slist_append 
+2025-08-25 20:00:54,635 [__main__] DEBUG: Processing item 62/150
+2025-08-25 20:01:34,639 [__main__] DEBUG: Metadata extraction took 25.002s for: Memory leak from doh_write_cb
+2025-08-25 20:01:34,639 [__main__] DEBUG: Processing item 63/150
+2025-08-25 20:01:39,352 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:02:04,642 [__main__] DEBUG: Metadata extraction took 25.012s for: HTTP/2 CONTINUATION Flood Vulnerability
+2025-08-25 20:02:04,642 [__main__] DEBUG: Processing item 64/150
+2025-08-25 20:02:39,344 [__main__] DEBUG: Metadata extraction took 19.703s for: Path Traversal Vulnerability in curl via Unsanitiz
+2025-08-25 20:02:39,344 [__main__] DEBUG: Processing item 65/150
+2025-08-25 20:02:39,345 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:03:14,643 [__main__] DEBUG: Metadata extraction took 25.013s for: Buffer Overflow in curl MQTT Test Server (tests/se
+2025-08-25 20:03:14,643 [__main__] DEBUG: Processing item 66/150
+2025-08-25 20:03:39,348 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:03:39,641 [__main__] DEBUG: Metadata extraction took 10.012s for: Free of uninitialized pointer in doh_decode_rdata_
+2025-08-25 20:03:39,641 [__main__] DEBUG: Processing item 67/150
+2025-08-25 20:04:19,636 [__main__] DEBUG: Metadata extraction took 24.993s for: Improper Restriction of Authentication Attempts in
+2025-08-25 20:04:19,636 [__main__] DEBUG: Processing item 68/150
+2025-08-25 20:04:39,346 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:04:42,833 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 20:04:42,981 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 20:04:49,633 [__main__] DEBUG: Metadata extraction took 14.998s for: Stack Buffer Overflow in curl's OpenSSL Provider H
+2025-08-25 20:04:49,634 [__main__] DEBUG: Processing item 69/150
+2025-08-25 20:05:12,113 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=86b24716-faed-44a7-9417-5c8f62afab3b&batch_time=1756173912112> (resource type: fetch, referrer: https://hackerone.com/)
+2025-08-25 20:05:12,401 [scrapy-playwright] DEBUG: [Context=default] Response: <202 https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=86b24716-faed-44a7-9417-5c8f62afab3b&batch_time=1756173912112>
+2025-08-25 20:05:29,636 [__main__] DEBUG: Metadata extraction took 25.005s for: OS Command Injection in scripts/firefox-db2pem.sh 
+2025-08-25 20:05:29,636 [__main__] DEBUG: Processing item 70/150
+2025-08-25 20:05:39,337 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:06:04,642 [__main__] DEBUG: Metadata extraction took 25.012s for: Failure to strip Proxy-Authorization header on cha
+2025-08-25 20:06:04,642 [__main__] DEBUG: Processing item 71/150
+2025-08-25 20:06:39,344 [__main__] DEBUG: Metadata extraction took 19.706s for: Arbitrary File Read via Unsanitized curl Usage Res
+2025-08-25 20:06:39,344 [__main__] DEBUG: Processing item 72/150
+2025-08-25 20:06:39,345 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:07:14,635 [__main__] DEBUG: Metadata extraction took 25.003s for: Credential leak on redirect due to improper state 
+2025-08-25 20:07:14,635 [__main__] DEBUG: Processing item 73/150
+2025-08-25 20:07:39,347 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:07:44,631 [__main__] DEBUG: Metadata extraction took 14.997s for: Sensitive information disclosure with malicious ne
+2025-08-25 20:07:44,632 [__main__] DEBUG: Processing item 74/150
+2025-08-25 20:08:24,637 [__main__] DEBUG: Metadata extraction took 24.996s for: CVE-2025-5399: WebSocket endless loop
+2025-08-25 20:08:24,637 [__main__] DEBUG: Processing item 75/150
+2025-08-25 20:08:39,342 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:08:59,637 [__main__] DEBUG: Metadata extraction took 20.296s for: CVE-2025-5025: No QUIC certificate pinning with wo
+2025-08-25 20:08:59,637 [__main__] DEBUG: Processing item 76/150
+2025-08-25 20:09:39,333 [__main__] DEBUG: Metadata extraction took 24.697s for: CVE-2025-4947: QUIC certificate check skip with wo
+2025-08-25 20:09:39,333 [__main__] DEBUG: Processing item 77/150
+2025-08-25 20:09:39,349 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:09:42,991 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 20:09:43,139 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 20:10:09,641 [__main__] DEBUG: Metadata extraction took 25.010s for: Memory Leak in libcurl via Location Header Handlin
+2025-08-25 20:10:09,641 [__main__] DEBUG: Processing item 78/150
+2025-08-25 20:10:12,121 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=103ddb35-b288-4e9e-8e45-5b7dded30629&batch_time=1756174212120> (resource type: fetch, referrer: https://hackerone.com/)
+2025-08-25 20:10:12,397 [scrapy-playwright] DEBUG: [Context=default] Response: <202 https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=103ddb35-b288-4e9e-8e45-5b7dded30629&batch_time=1756174212120>
+2025-08-25 20:10:39,342 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:10:39,635 [__main__] DEBUG: Metadata extraction took 14.996s for: `Curl_socketpair()` fallback vulnerable to man-in-
+2025-08-25 20:10:39,635 [__main__] DEBUG: Processing item 79/150
+2025-08-25 20:11:14,642 [__main__] DEBUG: Metadata extraction took 20.008s for: Memory Leak
+2025-08-25 20:11:14,642 [__main__] DEBUG: Processing item 80/150
+2025-08-25 20:11:39,339 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:11:49,639 [__main__] DEBUG: Metadata extraction took 20.002s for: CRLF Injection in `--proxy-header` allows extra HT
+2025-08-25 20:11:49,639 [__main__] DEBUG: Processing item 81/150
+2025-08-25 20:12:29,635 [__main__] DEBUG: Metadata extraction took 25.000s for: HTTP/3 Stream Dependency Cycle Exploit
+2025-08-25 20:12:29,635 [__main__] DEBUG: Processing item 82/150
+2025-08-25 20:12:39,338 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:12:59,637 [__main__] DEBUG: Metadata extraction took 20.005s for: Double Free Vulnerability in `libcurl` Cookie Mana
+2025-08-25 20:12:59,637 [__main__] DEBUG: Processing item 83/150
+2025-08-25 20:13:34,635 [__main__] DEBUG: Metadata extraction took 19.992s for: Use of a Broken or Risky Cryptographic Algorithm (
+2025-08-25 20:13:34,635 [__main__] DEBUG: Processing item 84/150
+2025-08-25 20:13:39,348 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:14:04,640 [__main__] DEBUG: Processing item 85/150
+2025-08-25 20:14:39,339 [__main__] DEBUG: Metadata extraction took 19.700s for: Use after free (read) in curl_multi_perform with D
+2025-08-25 20:14:39,340 [__main__] DEBUG: Processing item 86/150
+2025-08-25 20:14:39,341 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:14:43,152 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 20:14:43,356 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 20:15:12,106 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=c2698356-8c9e-474b-a4ae-293f03ce82f3&batch_time=1756174512104> (resource type: fetch, referrer: https://hackerone.com/)
+2025-08-25 20:15:12,384 [scrapy-playwright] DEBUG: [Context=default] Response: <202 https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=c2698356-8c9e-474b-a4ae-293f03ce82f3&batch_time=1756174512104>
+2025-08-25 20:15:14,630 [__main__] DEBUG: Metadata extraction took 24.986s for: Format string vulnerability, curl_msnprintf() func
+2025-08-25 20:15:14,630 [__main__] DEBUG: Processing item 87/150
+2025-08-25 20:15:39,340 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:15:49,639 [__main__] DEBUG: Metadata extraction took 20.002s for: ("possible") UAF
+2025-08-25 20:15:49,639 [__main__] DEBUG: Processing item 88/150
+2025-08-25 20:16:29,643 [__main__] DEBUG: Metadata extraction took 25.002s for: CVE-2025-0167: netrc and default credential leak
+2025-08-25 20:16:29,643 [__main__] DEBUG: Processing item 89/150
+2025-08-25 20:16:39,345 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:16:59,634 [__main__] DEBUG: Metadata extraction took 20.289s for: CVE-2025-0665: eventfd double close
+2025-08-25 20:16:59,634 [__main__] DEBUG: Processing item 90/150
+2025-08-25 20:17:39,334 [__main__] DEBUG: Metadata extraction took 24.701s for: curl allows SSH connection even if host is not in 
+2025-08-25 20:17:39,334 [__main__] DEBUG: Processing item 91/150
+2025-08-25 20:17:39,350 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:18:09,635 [__main__] DEBUG: Metadata extraction took 25.001s for: CVE-2025-0725: gzip integer overflow
+2025-08-25 20:18:09,636 [__main__] DEBUG: Processing item 92/150
+2025-08-25 20:18:39,346 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:18:39,640 [__main__] DEBUG: Metadata extraction took 15.002s for: Hackers Attack Curl Vulnerability Accessing Sensit
+2025-08-25 20:18:39,640 [__main__] DEBUG: Processing item 93/150
+2025-08-25 20:19:19,638 [__main__] DEBUG: Metadata extraction took 24.997s for: bypass of this Fixed #2437131 [ Inadequate Protoco
+2025-08-25 20:19:19,638 [__main__] DEBUG: Processing item 94/150
+2025-08-25 20:19:39,338 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:19:43,370 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 20:19:43,593 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 20:19:54,631 [__main__] DEBUG: Metadata extraction took 19.991s for: CVE-2024-11053: netrc + redirect credential leak
+2025-08-25 20:19:54,631 [__main__] DEBUG: Processing item 95/150
+2025-08-25 20:20:12,099 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=c4e86957-32bf-4f37-b085-18a3254a4a68&batch_time=1756174812097> (resource type: fetch, referrer: https://hackerone.com/)
+2025-08-25 20:20:12,365 [scrapy-playwright] DEBUG: [Context=default] Response: <202 https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=c4e86957-32bf-4f37-b085-18a3254a4a68&batch_time=1756174812097>
+2025-08-25 20:20:34,634 [__main__] DEBUG: Metadata extraction took 25.001s for: Buffer Overflow Risk in Curl_inet_ntop and inet_nt
+2025-08-25 20:20:34,634 [__main__] DEBUG: Processing item 96/150
+2025-08-25 20:20:39,347 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:21:04,631 [__main__] DEBUG: Metadata extraction took 24.990s for: Buffer Overflow Vulnerability in strcpy() Leading 
+2025-08-25 20:21:04,631 [__main__] DEBUG: Processing item 97/150
+2025-08-25 20:21:39,340 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:21:39,633 [__main__] DEBUG: Metadata extraction took 19.990s for: Buffer overflow in strcpy
+2025-08-25 20:21:39,633 [__main__] DEBUG: Processing item 98/150
+2025-08-25 20:22:19,631 [__main__] DEBUG: Metadata extraction took 24.995s for: CVE-2024-9681: HSTS subdomain overwrites parent ca
+2025-08-25 20:22:19,631 [__main__] DEBUG: Processing item 99/150
+2025-08-25 20:22:39,341 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:22:54,631 [__main__] DEBUG: Metadata extraction took 20.001s for: Exploitable Format String Vulnerability in curl_mf
+2025-08-25 20:22:54,631 [__main__] DEBUG: Processing item 100/150
+2025-08-25 20:23:34,629 [__main__] DEBUG: Metadata extraction took 24.992s for: When curl uses Schannel as TLS backend, it fails t
+2025-08-25 20:23:34,629 [__main__] DEBUG: Processing item 101/150
+2025-08-25 20:23:39,342 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:24:09,632 [__main__] DEBUG: Metadata extraction took 24.993s for: CVE-2024-8096: OCSP stapling bypass with GnuTLS
+2025-08-25 20:24:09,632 [__main__] DEBUG: Processing item 102/150
+2025-08-25 20:24:39,350 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:24:39,628 [__main__] DEBUG: Metadata extraction took 14.999s for: CVE-2024-7264: ASN.1 date parser overread
+2025-08-25 20:24:39,628 [__main__] DEBUG: Processing item 103/150
+2025-08-25 20:24:43,600 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 20:24:43,757 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 20:25:12,100 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=86e3b09d-d719-44d6-86c5-532dce3ba866&batch_time=1756175112098> (resource type: fetch, referrer: https://hackerone.com/)
+2025-08-25 20:25:12,604 [scrapy-playwright] DEBUG: [Context=default] Response: <202 https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=86e3b09d-d719-44d6-86c5-532dce3ba866&batch_time=1756175112098>
+2025-08-25 20:25:19,635 [__main__] DEBUG: Metadata extraction took 24.994s for: CVE-2024-6197: freeing stack buffer in utf8asn1str
+2025-08-25 20:25:19,635 [__main__] DEBUG: Processing item 104/150
+2025-08-25 20:25:39,349 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:25:49,635 [__main__] DEBUG: Metadata extraction took 14.995s for: CVE-2024-6874: macidn punycode buffer overread
+2025-08-25 20:25:49,635 [__main__] DEBUG: Processing item 105/150
+2025-08-25 20:26:29,640 [__main__] DEBUG: Metadata extraction took 24.997s for: NULL dereference when encoding DN of x509 certific
+2025-08-25 20:26:29,640 [__main__] DEBUG: Processing item 106/150
+2025-08-25 20:26:39,342 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:27:04,640 [__main__] DEBUG: Metadata extraction took 25.005s for: Unicode-to-ASCII conversion on Windows can lead to
+2025-08-25 20:27:04,640 [__main__] DEBUG: Processing item 107/150
+2025-08-25 20:27:39,341 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:27:39,636 [__main__] DEBUG: Metadata extraction took 19.998s for: Incorrect Encoding Conversion in hostname results 
+2025-08-25 20:27:39,636 [__main__] DEBUG: Processing item 108/150
+2025-08-25 20:28:19,642 [__main__] DEBUG: Metadata extraction took 25.012s for: Denial of Service in curl Request - HTTP headers e
+2025-08-25 20:28:19,642 [__main__] DEBUG: Processing item 109/150
+2025-08-25 20:28:39,338 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:28:54,635 [__main__] DEBUG: Metadata extraction took 19.998s for: Incorrect Type Conversion in interpreting IPv4-map
+2025-08-25 20:28:54,635 [__main__] DEBUG: Processing item 110/150
+2025-08-25 20:29:34,634 [__main__] DEBUG: Metadata extraction took 24.999s for: cookie is sent on redirect
+2025-08-25 20:29:34,634 [__main__] DEBUG: Processing item 111/150
+2025-08-25 20:29:39,350 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:29:43,772 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 20:29:43,943 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 20:30:04,630 [__main__] DEBUG: Metadata extraction took 25.001s for: CVE-2024-2004: Usage of disabled protocol
+2025-08-25 20:30:04,630 [__main__] DEBUG: Processing item 112/150
+2025-08-25 20:30:12,110 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=a0dae903-666e-4708-8657-b77604c25ca0&batch_time=1756175412108> (resource type: fetch, referrer: https://hackerone.com/)
+2025-08-25 20:30:12,407 [scrapy-playwright] DEBUG: [Context=default] Response: <202 https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=a0dae903-666e-4708-8657-b77604c25ca0&batch_time=1756175412108>
+2025-08-25 20:30:39,339 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:30:39,633 [__main__] DEBUG: Metadata extraction took 19.990s for: HTTP/2 PUSH_PROMISE DoS
+2025-08-25 20:30:39,633 [__main__] DEBUG: Processing item 113/150
+2025-08-25 20:31:19,630 [__main__] DEBUG: Metadata extraction took 24.987s for: CVE-2024-2466: TLS certificate check bypass with m
+2025-08-25 20:31:19,630 [__main__] DEBUG: Processing item 114/150
+2025-08-25 20:31:39,345 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:31:49,639 [__main__] DEBUG: Metadata extraction took 14.996s for: CVE-2024-2398: HTTP/2 push headers memory-leak
+2025-08-25 20:31:49,639 [__main__] DEBUG: Processing item 115/150
+2025-08-25 20:32:29,637 [__main__] DEBUG: Metadata extraction took 25.008s for: CVE-2024-2379: QUIC certificate check bypass with 
+2025-08-25 20:32:29,637 [__main__] DEBUG: Processing item 116/150
+2025-08-25 20:32:39,339 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:33:04,634 [__main__] DEBUG: Metadata extraction took 25.001s for: CVE-2024-0853: OCSP verification bypass with TLS s
+2025-08-25 20:33:04,634 [__main__] DEBUG: Processing item 117/150
+2025-08-25 20:33:39,340 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:33:39,640 [__main__] DEBUG: Metadata extraction took 20.007s for: Buffer Overflow Vulnerability in WebSocket Handlin
+2025-08-25 20:33:39,640 [__main__] DEBUG: Processing item 118/150
+2025-08-25 20:34:19,641 [__main__] DEBUG: Metadata extraction took 25.010s for: CVE-2023-46219: HSTS long file name clears content
+2025-08-25 20:34:19,641 [__main__] DEBUG: Processing item 119/150
+2025-08-25 20:34:39,339 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:34:43,947 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 20:34:44,115 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 20:34:54,635 [__main__] DEBUG: Metadata extraction took 19.997s for: CVE-2023-46218: cookie mixed case PSL bypass
+2025-08-25 20:34:54,636 [__main__] DEBUG: Processing item 120/150
+2025-08-25 20:35:12,113 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=64e54ee3-ea45-4fba-a80f-6f4f9e83de7f&batch_time=1756175712111> (resource type: fetch, referrer: https://hackerone.com/)
+2025-08-25 20:35:12,423 [scrapy-playwright] DEBUG: [Context=default] Response: <202 https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=64e54ee3-ea45-4fba-a80f-6f4f9e83de7f&batch_time=1756175712111>
+2025-08-25 20:35:34,637 [__main__] DEBUG: Metadata extraction took 25.005s for: Buffer overflow and affected url:-https://github.c
+2025-08-25 20:35:34,637 [__main__] DEBUG: Processing item 121/150
+2025-08-25 20:35:39,350 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:36:04,643 [__main__] DEBUG: Metadata extraction took 25.014s for: [Critical] Curl CVE-2023-38545 vulnerability code 
+2025-08-25 20:36:04,643 [__main__] DEBUG: Processing item 122/150
+2025-08-25 20:36:39,343 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:36:39,637 [__main__] DEBUG: Metadata extraction took 20.007s for: CVE-2023-38546: cookie injection with none file
+2025-08-25 20:36:39,637 [__main__] DEBUG: Processing item 123/150
+2025-08-25 20:37:19,629 [__main__] DEBUG: Metadata extraction took 24.990s for: CVE-2023-38545: socks5 heap buffer overflow
+2025-08-25 20:37:19,629 [__main__] DEBUG: Processing item 124/150
+2025-08-25 20:37:39,348 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:37:49,641 [__main__] DEBUG: Metadata extraction took 15.011s for: NULL Pointer dereference in idn.c
+2025-08-25 20:37:49,641 [__main__] DEBUG: Processing item 125/150
+2025-08-25 20:38:29,636 [__main__] DEBUG: Metadata extraction took 24.992s for: CVE-2023-38039: HTTP header allocation DOS
+2025-08-25 20:38:29,636 [__main__] DEBUG: Processing item 126/150
+2025-08-25 20:38:39,351 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:38:59,629 [__main__] DEBUG: Metadata extraction took 20.278s for: CVE-2023-32001: fopen race condition
+2025-08-25 20:38:59,629 [__main__] DEBUG: Processing item 127/150
+2025-08-25 20:39:39,339 [__main__] DEBUG: Metadata extraction took 24.709s for: CVE-2023-28319: UAF in SSH sha256 fingerprint chec
+2025-08-25 20:39:39,339 [__main__] DEBUG: Processing item 128/150
+2025-08-25 20:39:39,349 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-08-25 20:39:44,130 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://hackerone.com/graphql> (resource type: fetch, referrer: https://hackerone.com/curl/hacktivity?type=team)
+2025-08-25 20:39:44,300 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://hackerone.com/graphql>
+2025-08-25 20:40:12,105 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=80036a11-4966-4898-97f9-3c327c8bc3b5&batch_time=1756176012104> (resource type: fetch, referrer: https://hackerone.com/)
+2025-08-25 20:40:12,384 [scrapy-playwright] DEBUG: [Context=default] Response: <202 https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Acore%2Cversion%3A91d80b774d4507e593105717ad9ba8329a0a6791&dd-api-key=pub5197cece87412c3d9702c8fa913a829d&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=80036a11-4966-4898-97f9-3c327c8bc3b5&batch_time=1756176012104>
+2025-08-25 20:40:14,642 [__main__] DEBUG: Metadata extraction took 25.006s for: Cache purge requests are not authenticated
+2025-08-25 20:40:14,642 [__main__] DEBUG: Processing item 129/150
+2025-08-25 20:40:20,561 [scrapy-playwright] DEBUG: Browser context closed: 'default' (persistent=False, remote=False)
+2025-08-25 20:40:20,562 [scrapy-playwright] DEBUG: Browser disconnected
+2025-08-25 20:40:24,631 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2025-08-25 20:40:24,631 [__main__] ERROR: Error processing hacktivity item 128: ElementHandle.inner_text: Connection closed while reading from the driver
+2025-08-25 20:40:24,632 [__main__] ERROR: Traceback (most recent call last):
+  File "C:\Users\Jason\source\repos\storytelling-with-data\grad\scrape\hackerone_scraper.py", line 172, in parse_hacktivity_page
+    report_wrapper = await page.query_selector('#report-information')
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jason\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\async_api\_generated.py", line 1853, in inner_text
+    return mapping.from_maybe_impl(await self._impl_obj.inner_text())
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jason\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_element_handle.py", line 81, in inner_text
+    return await self._channel.send("innerText", None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jason\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jason\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: ElementHandle.inner_text: Connection closed while reading from the driver
+
+2025-08-25 20:40:24,632 [__main__] DEBUG: Processing item 130/150
+2025-08-25 20:40:24,633 [scrapy.core.engine] INFO: Closing spider (shutdown)

@@ -1,0 +1,2327 @@
+[
+{
+    "team": "curl",
+    "title": "SMTP Command Injection Vulnerabilities in curl",
+    "url": "https://hackerone.com/reports/3357960",
+    "hacktivity_metadata": {
+        "date": "September 26, 2025 06:34:56 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Inconsistent URL Parsing in curl Leading to Potential SSRF and Access Control Bypass",
+    "url": "https://hackerone.com/reports/2814750",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "September 26, 2025 06:34:45 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Race condition on global `gss_context` during SOCKS5 GSS-API negotiation in libcurl",
+    "url": "https://hackerone.com/reports/3356088",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "September 26, 2025 01:05:10 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Use-after-free when POST body buffer is freed before transfer",
+    "url": "https://hackerone.com/reports/3355213",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "September 26, 2025 01:04:56 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Timing Attack Vulnerability in curl Digest Authentication via Non-Constant-Time String Comparison",
+    "url": "https://hackerone.com/reports/3346118",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "September 18, 2025 15:28:32 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Security Analysis Report: CURL Integer Overflow Vulnerability",
+    "url": "https://hackerone.com/reports/3344663",
+    "hacktivity_metadata": {
+        "date": "September 18, 2025 03:33:38 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "int overflow in krb5_read_data() leads to (possible) massive `recv()` write",
+    "url": "https://hackerone.com/reports/3341476",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "September 18, 2025 03:33:13 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Stack Buffer Overflow in cURL Cookie Parsing Leads to RCE",
+    "url": "https://hackerone.com/reports/3340109",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "September 16, 2025 02:11:53 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Multiple Unsafe strcpy() Function Calls Leading to Potential Buffer Overflow Vulnerabilities in cURL 8.16.1-DEV",
+    "url": "https://hackerone.com/reports/3337561",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "September 14, 2025 02:26:17 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "TOCTOU Race Condition in HTTP/2 Connection Reuse Leads to Certificate Validation Bypass",
+    "url": "https://hackerone.com/reports/3335085",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "September 11, 2025 10:10:49 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2025-9086: Out of bounds read for cookie path",
+    "url": "https://hackerone.com/reports/3294999",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "September 10, 2025 00:05:13 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2025-10148: predictable WebSocket mask",
+    "url": "https://hackerone.com/reports/3330839",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "September 10, 2025 00:05:01 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Confirmed Security Misconfigurations on curl.se (BREACH, Missing Security Headers, ETag Info Disclosure)",
+    "url": "https://hackerone.com/reports/3331764",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "September 9, 2025 08:50:36 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "libcurl: Host-Only Cookies Leak to Alternate IPv4 Forms",
+    "url": "https://hackerone.com/reports/3324901",
+    "hacktivity_metadata": {
+        "date": "September 4, 2025 06:29:56 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Heap-buffer-overflow (Out-of-Bounds Read) in DoH hostname encoding",
+    "url": "https://hackerone.com/reports/3324190",
+    "hacktivity_metadata": {
+        "severity": "None",
+        "date": "September 4, 2025 00:10:43 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Incorrect Parsing of IPv6 Zone ID in curl",
+    "url": "https://hackerone.com/reports/3319767",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "September 1, 2025 11:00:53 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Missing Security Headers",
+    "url": "https://hackerone.com/reports/3310318",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "August 22, 2025 11:23:44 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "curl leaks destination IP via glibc getaddrinfo() UDP connect, bypassing SOCKS5/Tor",
+    "url": "https://hackerone.com/reports/3306475",
+    "hacktivity_metadata": {
+        "date": "August 20, 2025 02:37:15 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Curl parse_connect_to_string Heap-Overread Leading to Denial of Service via CURLOPT_CONNECT_TO",
+    "url": "https://hackerone.com/reports/3306456",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "August 20, 2025 02:00:26 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "WebSocket Fragmentation DoS on Curl Client",
+    "url": "https://hackerone.com/reports/3303765",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "August 19, 2025 08:56:43 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "## Title  Heap Use-After-Free Vulnerability in `curl` Leading to Potential Code Execution",
+    "url": "https://hackerone.com/reports/3302518",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "August 17, 2025 23:04:11 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Account/Repository Takeover via Abandoned GitHub Username in curl's href_extractor.c",
+    "url": "https://hackerone.com/reports/3295738",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "August 12, 2025 06:05:43 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Insecure WebSocket Usage in curl Documentation and Examples (CWE-319: Cleartext Transmission of Sensitive Information)",
+    "url": "https://hackerone.com/reports/3295652",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "August 12, 2025 02:47:42 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Unsafe Global IFS Modification in OS400 Shell Script Enables Command Injection and Parsing Flaws (CWE-78/CWE-20)",
+    "url": "https://hackerone.com/reports/3295656",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "August 12, 2025 02:40:04 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Exposure of Hard-coded Private Keys and Credentials in curl Source Repository (CWE-321)",
+    "url": "https://hackerone.com/reports/3295650",
+    "hacktivity_metadata": {
+        "severity": "Critical",
+        "date": "August 12, 2025 02:33:14 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Title: Remote Code Execution (RCE) via Arbitrary Library Loading in `--engine` option",
+    "url": "https://hackerone.com/reports/3293801",
+    "hacktivity_metadata": {
+        "severity": "Critical",
+        "date": "August 10, 2025 15:58:44 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Path Traversal in SFTP QUOTE command leads to Arbitrary File Write and potential RCE",
+    "url": "https://hackerone.com/reports/3293177",
+    "hacktivity_metadata": {
+        "severity": "Critical",
+        "date": "August 10, 2025 15:37:57 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Vulnerability Report: Local File Disclosure via file:// Protocol in cURL",
+    "url": "https://hackerone.com/reports/3293884",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "August 10, 2025 15:37:42 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Heap Buffer Overflow in Curl_memdup0() via CURLOPT_COPYPOSTFIELDS/CURLOPT_POSTFIELDSIZE Mismatch",
+    "url": "https://hackerone.com/reports/3292590",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "August 9, 2025 07:00:47 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Use After Free (that leads to arbitrary Write for some versions) ",
+    "url": "https://hackerone.com/reports/3283232",
+    "hacktivity_metadata": {
+        "date": "August 6, 2025 09:34:21 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Integer Overflow in schannel.c TLS Data Transmission",
+    "url": "https://hackerone.com/reports/3282709",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "August 2, 2025 02:23:18 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Stack use-after-scope in HTTP/3 POST request processing via CURLOPT_POSTFIELDS",
+    "url": "https://hackerone.com/reports/3279804",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "July 31, 2025 09:09:00 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "OpenSSL HTTP/3 bogus CURLINFO_TLS_SSL_PTR",
+    "url": "https://hackerone.com/reports/3261310",
+    "hacktivity_metadata": {
+        "date": "July 28, 2025 16:48:50 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Vulnerability Report: Public Exposure of Security Audit File",
+    "url": "https://hackerone.com/reports/3272982",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "July 27, 2025 09:23:27 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Security check up",
+    "url": "https://hackerone.com/reports/3269761",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "July 24, 2025 06:49:19 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Use after free (or assert triggered) with failed allocations in openssl",
+    "url": "https://hackerone.com/reports/3264469",
+    "hacktivity_metadata": {
+        "date": "July 24, 2025 06:17:35 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Exposure of Private RSA Private Key in curl GitHub Repository",
+    "url": "https://hackerone.com/reports/3268294",
+    "hacktivity_metadata": {
+        "date": "July 23, 2025 14:55:07 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "GnuTLS CURLINFO_TLS_SESSION / CURLINFO_TLS_SSL_PTR type confusion",
+    "url": "https://hackerone.com/reports/3261248",
+    "hacktivity_metadata": {
+        "date": "July 23, 2025 08:59:30 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "on the implications of permitting procedural culling",
+    "url": "https://hackerone.com/reports/3262848",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "July 22, 2025 02:38:32 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "curl ASSERTs when accessing an LDAP URL",
+    "url": "https://hackerone.com/reports/3258022",
+    "hacktivity_metadata": {
+        "date": "July 22, 2025 02:02:50 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Disk Space Exhaustion leading to a Denial of Service (DoS)",
+    "url": "https://hackerone.com/reports/3250490",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "July 14, 2025 05:31:57 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Uncontrolled File Write/Arbitrary File Creation ",
+    "url": "https://hackerone.com/reports/3250117",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "July 13, 2025 11:12:26 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "HTTP Request Smuggling Vulnerability Analysis - cURL Security Report",
+    "url": "https://hackerone.com/reports/3249936",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "July 13, 2025 08:39:50 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Default Minimum TLS Version Set to TLS v1.0 (Cryptographic Weakness)",
+    "url": "https://hackerone.com/reports/3246519",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "July 10, 2025 15:42:53 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Use-After-Free in OpenSSL Keylog Callback via SSL_get_ex_data() in libcurl",
+    "url": "https://hackerone.com/reports/3242005",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "July 9, 2025 07:45:38 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Arbitrary File Read via file:// Protocol in cURL",
+    "url": "https://hackerone.com/reports/3242087",
+    "hacktivity_metadata": {
+        "severity": "Critical",
+        "date": "July 9, 2025 01:23:24 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "access notes without permission",
+    "url": "https://hackerone.com/reports/3241304",
+    "hacktivity_metadata": {
+        "severity": "None",
+        "date": "July 8, 2025 13:54:38 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Disclosure of email addresses",
+    "url": "https://hackerone.com/reports/3241308",
+    "hacktivity_metadata": {
+        "severity": "None",
+        "date": "July 8, 2025 13:53:51 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "curl --continue-at confusion",
+    "url": "https://hackerone.com/reports/2859735",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "July 7, 2025 04:18:26 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Information Disclosure at : https://curl.se/.mailmap",
+    "url": "https://hackerone.com/reports/2853023",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "July 7, 2025 04:18:15 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "information disclosure ",
+    "url": "https://hackerone.com/reports/2841436",
+    "hacktivity_metadata": {
+        "severity": "None",
+        "date": "July 7, 2025 04:18:05 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "netrc crlf injection",
+    "url": "https://hackerone.com/reports/2831558",
+    "hacktivity_metadata": {
+        "date": "July 7, 2025 04:17:55 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "curl mishandles `%0c%0b` sequences in HTTP responses leading to CRLF confusions, Headers and Cookies Injection",
+    "url": "https://hackerone.com/reports/2861797",
+    "hacktivity_metadata": {
+        "date": "July 7, 2025 04:17:41 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Arbitrary File Deletion Vulnerability in curl Source Code via os.unlink()",
+    "url": "https://hackerone.com/reports/2864414",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "July 7, 2025 04:17:31 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "-H with space prefix leads to previous header injection when used with --proxy",
+    "url": "https://hackerone.com/reports/2864859",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "July 7, 2025 04:17:20 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "OS Command Injection  (subprocess Module Usage)",
+    "url": "https://hackerone.com/reports/2904921",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "July 7, 2025 04:17:09 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Git repository found",
+    "url": "https://hackerone.com/reports/2915426",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "July 7, 2025 04:16:58 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Integer Overflow Risk in HTTP/2 Proxy Window Size Calculations",
+    "url": "https://hackerone.com/reports/3238249",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "July 7, 2025 04:16:48 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "TLS Cipher Misconfiguration in HTTP/3/QUIC Support",
+    "url": "https://hackerone.com/reports/2981303",
+    "hacktivity_metadata": {
+        "date": "July 6, 2025 15:05:11 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CRLF injection in libcurl's SMTP client via --mail-from and --mail-rcpt allows SMTP command smuggling",
+    "url": "https://hackerone.com/reports/3235428",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "July 3, 2025 16:57:44 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "curl doesn't hide credentials in /proc/XXX/cmdline provided via CLI arguments",
+    "url": "https://hackerone.com/reports/3000639",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "July 3, 2025 00:43:39 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Elevation of Privileges (EoP) vulnerabilities related to the some easy_options on Windows",
+    "url": "https://hackerone.com/reports/2941920",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "July 3, 2025 00:43:25 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Authorization Header Leak via --location-trusted in Curl",
+    "url": "https://hackerone.com/reports/2946924",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "July 3, 2025 00:43:09 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Memory leak of ftp (with proxy reuse)",
+    "url": "https://hackerone.com/reports/3023139",
+    "hacktivity_metadata": {
+        "severity": "None",
+        "date": "July 1, 2025 10:25:41 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "HTTP Proxy Bypass via `CURLOPT_CUSTOMREQUEST` Verb Tunneling",
+    "url": "https://hackerone.com/reports/3231321",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "July 1, 2025 08:20:30 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Speculative Execution Side-Channel in `curl` ",
+    "url": "https://hackerone.com/reports/3124490",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "July 1, 2025 08:09:27 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "arbitrary file read via `file://` path traversal with `--path-as-is`",
+    "url": "https://hackerone.com/reports/3226502",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "July 1, 2025 08:08:38 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Heap buffer overflow vulnerability in conncache.c: incorrect use of pointer arrays resulting in out-of-bounds memory writes.",
+    "url": "https://hackerone.com/reports/3156384",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "July 1, 2025 08:08:26 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "curl -OJ allows creating custom .curlrc file which allows exfiltrating private data, among other things",
+    "url": "https://hackerone.com/reports/3135673",
+    "hacktivity_metadata": {
+        "severity": "None",
+        "date": "July 1, 2025 08:07:45 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "curl_easy_header runs at O(N) or worse and can be abused to use minute(s) of CPU time",
+    "url": "https://hackerone.com/reports/3133253",
+    "hacktivity_metadata": {
+        "date": "July 1, 2025 08:07:30 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "[High] MITM via Insecure CA Path Handling in cURL (--capath, CURLOPT_CAPATH) (CWE-494: Download of Code Without Integrity Check)",
+    "url": "https://hackerone.com/reports/3120969",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "June 30, 2025 12:55:19 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "[High] Arbitrary File Write via Path Traversal in cURL CLI (`-o`, `--output`) (CWE-22: Improper Limitation of a Pathname to a Restricted Directory)",
+    "url": "https://hackerone.com/reports/3120987",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "June 30, 2025 12:55:10 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Potential XSS vector in curl via unsanitized URL parameter handling",
+    "url": "https://hackerone.com/reports/3118915",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "June 30, 2025 12:54:59 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Double free caused by mqtt_doing()",
+    "url": "https://hackerone.com/reports/3045390",
+    "hacktivity_metadata": {
+        "severity": "None",
+        "date": "June 30, 2025 12:54:48 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Buffer Overflow in curl's Rustls Backend",
+    "url": "https://hackerone.com/reports/3037583",
+    "hacktivity_metadata": {
+        "date": "June 30, 2025 12:54:26 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Stack-based Buffer Overflow in TELNET NEW_ENV Option Handling",
+    "url": "https://hackerone.com/reports/3230082",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "June 30, 2025 12:35:20 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Heap Buffer Overflow in libcurl curl_slist_append via Unterminated String",
+    "url": "https://hackerone.com/reports/3229490",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "June 30, 2025 01:23:15 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Memory leak from doh_write_cb",
+    "url": "https://hackerone.com/reports/3089595",
+    "hacktivity_metadata": {
+        "severity": "None",
+        "date": "June 29, 2025 13:12:35 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "HTTP/2 CONTINUATION Flood Vulnerability",
+    "url": "https://hackerone.com/reports/3125820",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "June 28, 2025 15:13:12 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Path Traversal Vulnerability in curl via Unsanitized IPFS_PATH Environment Variable",
+    "url": "https://hackerone.com/reports/3100073",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "June 28, 2025 15:11:42 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Buffer Overflow in curl MQTT Test Server (tests/server/mqttd.c) via Malicious CONNECT Packet",
+    "url": "https://hackerone.com/reports/3101127",
+    "hacktivity_metadata": {
+        "severity": "Critical",
+        "date": "June 28, 2025 15:11:25 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Free of uninitialized pointer in doh_decode_rdata_name()",
+    "url": "https://hackerone.com/reports/3037326",
+    "hacktivity_metadata": {
+        "date": "June 28, 2025 15:10:50 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Improper Restriction of Authentication Attempts in cURL",
+    "url": "https://hackerone.com/reports/3030158",
+    "hacktivity_metadata": {
+        "severity": "Critical",
+        "date": "June 28, 2025 15:09:52 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Stack Buffer Overflow in curl's OpenSSL Provider Handling",
+    "url": "https://hackerone.com/reports/3153971",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "June 28, 2025 06:40:36 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": " OS Command Injection in scripts/firefox-db2pem.sh via untrusted certificate nicknames",
+    "url": "https://hackerone.com/reports/3225565",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "June 28, 2025 06:19:19 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Failure to strip Proxy-Authorization header on change in origin",
+    "url": "https://hackerone.com/reports/3180396",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "June 27, 2025 03:48:04 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Arbitrary File Read via Unsanitized curl Usage Results in Sensitive File Exposure",
+    "url": "https://hackerone.com/reports/3183957",
+    "hacktivity_metadata": {
+        "severity": "None",
+        "date": "June 27, 2025 03:47:49 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Credential leak on redirect due to improper state clearing when parsing macdef in netrc.c",
+    "url": "https://hackerone.com/reports/3211973",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "June 22, 2025 10:26:29 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Sensitive information disclosure with malicious netrc file",
+    "url": "https://hackerone.com/reports/3211126",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "June 22, 2025 04:55:55 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2025-5399: WebSocket endless loop",
+    "url": "https://hackerone.com/reports/3168039",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "June 3, 2025 23:57:17 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2025-5025: No QUIC certificate pinning with wolfSSL",
+    "url": "https://hackerone.com/reports/3153497",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "May 28, 2025 00:35:50 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2025-4947: QUIC certificate check skip with wolfSSL",
+    "url": "https://hackerone.com/reports/3150884",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "May 28, 2025 00:35:36 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Memory Leak in libcurl via Location Header Handling (CWE-770)",
+    "url": "https://hackerone.com/reports/3158093",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "May 22, 2025 01:19:09 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "`Curl_socketpair()` fallback vulnerable to man-in-the-middle attack",
+    "url": "https://hackerone.com/reports/3148937",
+    "hacktivity_metadata": {
+        "date": "May 20, 2025 00:51:26 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Memory Leak",
+    "url": "https://hackerone.com/reports/3137657",
+    "hacktivity_metadata": {
+        "date": "May 10, 2025 15:16:26 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CRLF Injection in `--proxy-header` allows extra HTTP headers (CWE-93)",
+    "url": "https://hackerone.com/reports/3133379",
+    "hacktivity_metadata": {
+        "severity": "None",
+        "date": "May 8, 2025 02:21:52 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "HTTP/3 Stream Dependency Cycle Exploit",
+    "url": "https://hackerone.com/reports/3125832",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "May 4, 2025 09:52:29 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Double Free Vulnerability in `libcurl` Cookie Management (`cookie.c`)",
+    "url": "https://hackerone.com/reports/3117697",
+    "hacktivity_metadata": {
+        "date": "April 29, 2025 15:16:18 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Use of a Broken or Risky Cryptographic Algorithm (CWE-327) in libcurl",
+    "url": "https://hackerone.com/reports/3116935",
+    "hacktivity_metadata": {
+        "date": "April 29, 2025 15:16:04 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Heap‑based buffer overflow in curl -K <config_file> allows arbitrary write .",
+    "url": "https://hackerone.com/reports/3094406",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "April 27, 2025 10:00:11 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Use after free (read) in curl_multi_perform with DoH and Proxy options, and resolve timeouts",
+    "url": "https://hackerone.com/reports/3022041",
+    "hacktivity_metadata": {
+        "date": "March 6, 2025 02:58:10 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Format string vulnerability, curl_msnprintf() function ",
+    "url": "https://hackerone.com/reports/2990139",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "February 20, 2025 03:58:01 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "(\"possible\") UAF",
+    "url": "https://hackerone.com/reports/2981245",
+    "hacktivity_metadata": {
+        "severity": "None",
+        "date": "February 8, 2025 02:57:29 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2025-0167: netrc and default credential leak",
+    "url": "https://hackerone.com/reports/2917232",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "February 7, 2025 02:30:43 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2025-0665: eventfd double close",
+    "url": "https://hackerone.com/reports/2954286",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "February 7, 2025 02:30:32 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "curl allows SSH connection even if host is not in known_hosts",
+    "url": "https://hackerone.com/reports/2961050",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "February 5, 2025 14:41:41 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2025-0725: gzip integer overflow",
+    "url": "https://hackerone.com/reports/2956023",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "February 5, 2025 06:11:34 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Hackers Attack Curl Vulnerability Accessing Sensitive Information",
+    "url": "https://hackerone.com/reports/2912277",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "December 27, 2024 05:42:23 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "bypass of this Fixed #2437131 [ Inadequate Protocol Restriction Enforcement in curl ]",
+    "url": "https://hackerone.com/reports/2905552",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "December 19, 2024 04:52:13 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2024-11053: netrc + redirect credential leak",
+    "url": "https://hackerone.com/reports/2829063",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "December 11, 2024 00:43:08 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Buffer Overflow Risk in Curl_inet_ntop and inet_ntop4",
+    "url": "https://hackerone.com/reports/2887487",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "December 8, 2024 14:43:23 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Buffer Overflow Vulnerability in strcpy() Leading to Remote Code Execution",
+    "url": "https://hackerone.com/reports/2871792",
+    "hacktivity_metadata": {
+        "severity": "Critical",
+        "date": "December 2, 2024 00:58:55 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Buffer overflow in strcpy",
+    "url": "https://hackerone.com/reports/2823554",
+    "hacktivity_metadata": {
+        "severity": "Critical",
+        "date": "November 7, 2024 10:36:54 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2024-9681: HSTS subdomain overwrites parent cache entry",
+    "url": "https://hackerone.com/reports/2764830",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "November 6, 2024 03:28:41 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Exploitable Format String Vulnerability in curl_mfprintf Function",
+    "url": "https://hackerone.com/reports/2819666",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "November 6, 2024 00:00:49 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "When curl uses Schannel as TLS backend, it fails to enforce TLS 1.3 cipher suite selections correctly",
+    "url": "https://hackerone.com/reports/2792484",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "November 4, 2024 15:11:58 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2024-8096: OCSP stapling bypass with GnuTLS",
+    "url": "https://hackerone.com/reports/2669852",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "September 11, 2024 08:50:38 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2024-7264: ASN.1 date parser overread",
+    "url": "https://hackerone.com/reports/2629968",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "August 1, 2024 16:05:14 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2024-6197: freeing stack buffer in utf8asn1str",
+    "url": "https://hackerone.com/reports/2559516",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "July 24, 2024 00:48:26 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2024-6874: macidn punycode buffer overread",
+    "url": "https://hackerone.com/reports/2604391",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "July 24, 2024 00:47:49 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "NULL dereference when encoding DN of x509 certificate",
+    "url": "https://hackerone.com/reports/2559558",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "June 19, 2024 06:03:07 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Unicode-to-ASCII conversion on Windows can lead to argument injection and more",
+    "url": "https://hackerone.com/reports/2550951",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "June 18, 2024 04:52:28 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Incorrect Encoding Conversion in hostname  results in indeterminate SSRF vulnerabilities",
+    "url": "https://hackerone.com/reports/2552179",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "June 18, 2024 04:52:09 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Denial of Service in curl Request - HTTP headers eat all memory",
+    "url": "https://hackerone.com/reports/2552192",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "June 18, 2024 04:51:53 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Incorrect Type Conversion in interpreting IPv4-mapped IPv6 addresses and below `curl` results in indeterminate SSRF vulnerabilities.",
+    "url": "https://hackerone.com/reports/2493548",
+    "hacktivity_metadata": {
+        "severity": "Critical",
+        "date": "May 8, 2024 01:17:29 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "cookie is sent on redirect",
+    "url": "https://hackerone.com/reports/2352676",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "March 28, 2024 02:56:28 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2024-2004: Usage of disabled protocol",
+    "url": "https://hackerone.com/reports/2384833",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "March 27, 2024 11:48:58 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "HTTP/2 PUSH_PROMISE DoS",
+    "url": "https://hackerone.com/reports/2402853",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "March 27, 2024 04:53:47 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2024-2466: TLS certificate check bypass with mbedTLS",
+    "url": "https://hackerone.com/reports/2416725",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "March 27, 2024 04:44:42 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2024-2398: HTTP/2 push headers memory-leak",
+    "url": "https://hackerone.com/reports/2402845",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "March 27, 2024 04:33:14 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2024-2379: QUIC certificate check bypass with wolfSSL",
+    "url": "https://hackerone.com/reports/2410774",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "March 27, 2024 01:37:36 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2024-0853: OCSP verification bypass with TLS session reuse",
+    "url": "https://hackerone.com/reports/2298922",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "January 31, 2024 06:11:47 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Buffer Overflow Vulnerability in WebSocket Handling",
+    "url": "https://hackerone.com/reports/2298307",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "January 2, 2024 01:15:26 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2023-46219: HSTS long file name clears contents",
+    "url": "https://hackerone.com/reports/2236133",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "December 8, 2023 03:05:59 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2023-46218: cookie mixed case PSL bypass",
+    "url": "https://hackerone.com/reports/2212193",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "December 6, 2023 04:55:09 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Buffer overflow and affected url:-https://github.com/curl/curl/blob/master/docs/examples/hsts-preload.c",
+    "url": "https://hackerone.com/reports/2252307",
+    "hacktivity_metadata": {
+        "severity": "Critical",
+        "date": "November 15, 2023 03:10:19 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "[Critical] Curl CVE-2023-38545 vulnerability code changes are disclosed on the internet",
+    "url": "https://hackerone.com/reports/2199174",
+    "hacktivity_metadata": {
+        "severity": "Critical",
+        "date": "October 16, 2023 06:32:27 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2023-38546: cookie injection with none file",
+    "url": "https://hackerone.com/reports/2148242",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "October 11, 2023 00:38:56 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2023-38545: socks5 heap buffer overflow",
+    "url": "https://hackerone.com/reports/2187833",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "October 11, 2023 00:38:42 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "NULL Pointer dereference in idn.c",
+    "url": "https://hackerone.com/reports/2171309",
+    "hacktivity_metadata": {
+        "severity": "Critical",
+        "date": "September 20, 2023 06:07:27 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2023-38039: HTTP header allocation DOS",
+    "url": "https://hackerone.com/reports/2072338",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "September 13, 2023 06:43:27 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2023-32001: fopen race condition",
+    "url": "https://hackerone.com/reports/2039870",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "July 24, 2023 23:00:08 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2023-28319: UAF in SSH sha256 fingerprint check",
+    "url": "https://hackerone.com/reports/1913733",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "May 24, 2023 02:25:54 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Cache purge requests are not authenticated",
+    "url": "https://hackerone.com/reports/1994585",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "May 20, 2023 09:10:42 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2023-28321: IDN wildcard match",
+    "url": "https://hackerone.com/reports/1950627",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "May 18, 2023 03:04:02 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2023-28322: more POST-after-PUT confusion",
+    "url": "https://hackerone.com/reports/1954658",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "May 18, 2023 03:03:35 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2023-28320: siglongjmp race condition",
+    "url": "https://hackerone.com/reports/1929597",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "May 17, 2023 03:50:01 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2023-27538: SSH connection too eager reuse still",
+    "url": "https://hackerone.com/reports/1898475",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "March 22, 2023 12:59:35 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2023-27536: GSS delegation too eager connection re-use",
+    "url": "https://hackerone.com/reports/1895135",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "March 22, 2023 12:59:25 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2023-27535: FTP too eager connection reuse",
+    "url": "https://hackerone.com/reports/1892780",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "March 22, 2023 12:59:16 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2023-27534: SFTP path ~ resolving discrepancy",
+    "url": "https://hackerone.com/reports/1892351",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "March 22, 2023 12:59:07 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2023-27533: Telnet option IAC injection",
+    "url": "https://hackerone.com/reports/1891474",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "March 22, 2023 12:58:57 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2023-27537: HSTS double-free",
+    "url": "https://hackerone.com/reports/1897203",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "March 20, 2023 05:24:38 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2023-23916: HTTP multi-header compression denial of service",
+    "url": "https://hackerone.com/reports/1826048",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "February 20, 2023 02:44:00 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2023-23914: curl HSTS ignored on multiple requests",
+    "url": "https://hackerone.com/reports/1813864",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "February 15, 2023 02:06:17 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2023-23915: HSTS amnesia with --parallel",
+    "url": "https://hackerone.com/reports/1814333",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "February 15, 2023 02:06:04 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "curl file writing susceptible to symlink attacks",
+    "url": "https://hackerone.com/reports/1814824",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "January 7, 2023 15:18:57 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": " libssh backend CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 validation bypass",
+    "url": "https://hackerone.com/reports/1825377",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "January 7, 2023 14:04:06 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2022-43552: HTTP Proxy deny use-after-free",
+    "url": "https://hackerone.com/reports/1764858",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "December 26, 2022 02:27:53 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2022-43551: Another HSTS bypass via IDN",
+    "url": "https://hackerone.com/reports/1755083",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "December 21, 2022 01:44:44 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2022-42915: HTTP proxy double-free",
+    "url": "https://hackerone.com/reports/1722065",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "November 26, 2022 05:04:19 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2022-32221: POST following PUT confusion",
+    "url": "https://hackerone.com/reports/1704017",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "November 26, 2022 05:02:53 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2022-42916: HSTS bypass via IDN",
+    "url": "https://hackerone.com/reports/1730660",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "October 27, 2022 08:55:55 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2022-35260: .netrc parser out-of-bounds access",
+    "url": "https://hackerone.com/reports/1721098",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "October 27, 2022 08:55:15 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2022-35252: control code in cookie denial of service",
+    "url": "https://hackerone.com/reports/1613943",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "August 31, 2022 04:55:57 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2022-32205: Set-Cookie denial of service",
+    "url": "https://hackerone.com/reports/1569946",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "June 27, 2022 00:56:08 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2022-32206: HTTP compression denial of service",
+    "url": "https://hackerone.com/reports/1570651",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "June 27, 2022 00:55:47 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2022-32207: Unpreserved file permissions",
+    "url": "https://hackerone.com/reports/1573634",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "June 27, 2022 00:55:36 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2022-32208: FTP-KRB bad message verification",
+    "url": "https://hackerone.com/reports/1590071",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "June 27, 2022 00:55:10 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Credential leak when use two url",
+    "url": "https://hackerone.com/reports/1569926",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "June 27, 2022 00:55:01 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "curl \"globbing\" can lead to denial of service attacks",
+    "url": "https://hackerone.com/reports/1572120",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "June 16, 2022 09:14:32 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Integer overflows in unescape_word()",
+    "url": "https://hackerone.com/reports/1564922",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "June 9, 2022 01:10:02 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "match",
+    "url": "https://hackerone.com/reports/1555440",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "June 9, 2022 01:09:50 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Heap overflow via HTTP/2 PUSH_PROMISE",
+    "url": "https://hackerone.com/reports/1589847",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "June 5, 2022 14:59:34 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "KRB-FTP: Security level downgrade",
+    "url": "https://hackerone.com/reports/1590102",
+    "hacktivity_metadata": {
+        "severity": "None",
+        "date": "June 5, 2022 14:58:34 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2022-27781: CERTINFO never-ending busy-loop",
+    "url": "https://hackerone.com/reports/1555441",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "May 16, 2022 03:01:16 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Credential leak on redirect",
+    "url": "https://hackerone.com/reports/1568175",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "May 14, 2022 10:06:25 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "error parse uri path in curl",
+    "url": "https://hackerone.com/reports/1566462",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "May 13, 2022 14:34:41 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Memory leak in CURLOPT_XOAUTH2_BEARER",
+    "url": "https://hackerone.com/reports/1567257",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "May 13, 2022 01:51:23 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Cookie injection from non-secure context",
+    "url": "https://hackerone.com/reports/1560324",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "May 13, 2022 00:44:08 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2022-30115: HSTS bypass via trailing dot",
+    "url": "https://hackerone.com/reports/1557449",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "May 11, 2022 09:33:39 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2022-27780: percent-encoded path separator in URL host",
+    "url": "https://hackerone.com/reports/1553841",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "May 11, 2022 09:33:27 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2022-27782: TLS and SSH connection too eager reuse",
+    "url": "https://hackerone.com/reports/1555796",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "May 11, 2022 06:40:19 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2022-27779: cookie for trailing dot TLD",
+    "url": "https://hackerone.com/reports/1553301",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "May 11, 2022 01:59:55 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2022-27778: curl removes wrong file on error",
+    "url": "https://hackerone.com/reports/1553598",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "May 11, 2022 01:23:16 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Certificate authentication re-use on redirect",
+    "url": "https://hackerone.com/reports/1563061",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "May 11, 2022 00:48:43 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2022-22576: OAUTH2 bearer bypass in connection re-use",
+    "url": "https://hackerone.com/reports/1526328",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "April 29, 2022 05:27:58 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2022-27776: Auth/cookie leak on redirect ",
+    "url": "https://hackerone.com/reports/1547048",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "April 27, 2022 03:58:45 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2022-27775: Bad local IPv6 connection reuse",
+    "url": "https://hackerone.com/reports/1546268",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "April 27, 2022 03:58:20 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2022-27774: Credential leak on redirect",
+    "url": "https://hackerone.com/reports/1543773",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "April 27, 2022 03:58:04 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 comparison disaster",
+    "url": "https://hackerone.com/reports/1549435",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "April 25, 2022 04:58:34 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CURLOPT_SSH_HOST_PUBLIC_KEY_MD5 bypass if string not 32 chars",
+    "url": "https://hackerone.com/reports/1549461",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "April 25, 2022 03:05:24 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "--libcurl code injection via trigraphs",
+    "url": "https://hackerone.com/reports/1548535",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "April 24, 2022 16:07:12 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "curl proceeds with unsafe connections when -K file can't be read",
+    "url": "https://hackerone.com/reports/1542881",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "April 21, 2022 09:38:25 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Denial of Service vulnerability in curl when parsing MQTT server response",
+    "url": "https://hackerone.com/reports/1521610",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "March 28, 2022 14:00:44 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Use of Unsafe function || Strcpy",
+    "url": "https://hackerone.com/reports/1485379",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "March 9, 2022 14:48:14 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Binary output bypass",
+    "url": "https://hackerone.com/reports/1468962",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "March 9, 2022 14:48:03 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Occasional use-after-free in multi_done() libcurl-7.81.0",
+    "url": "https://hackerone.com/reports/1463013",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "March 9, 2022 14:46:52 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": " Remote memory disclosure vulnerability in libcurl on 64 Bit Windows",
+    "url": "https://hackerone.com/reports/1444539",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "February 21, 2022 02:15:56 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2021-22946: Protocol downgrade required TLS bypassed",
+    "url": "https://hackerone.com/reports/1334111",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "September 24, 2021 07:15:18 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2021-22947: STARTTLS protocol injection via MITM",
+    "url": "https://hackerone.com/reports/1334763",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "September 24, 2021 07:14:53 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2021-22945: UAF and double-free in MQTT sending",
+    "url": "https://hackerone.com/reports/1269242",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "September 15, 2021 08:24:16 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2021-22925: TELNET stack contents disclosure again",
+    "url": "https://hackerone.com/reports/1223882",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "July 21, 2021 14:41:01 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2021-22924: Bad connection reuse due to flawed path name checks",
+    "url": "https://hackerone.com/reports/1223565",
+    "hacktivity_metadata": {
+        "bounty": "$1,200",
+        "severity": "High",
+        "date": "July 21, 2021 10:30:13 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2021-22926: CURLOPT_SSLCERT mixup with Secure Transport",
+    "url": "https://hackerone.com/reports/1234760",
+    "hacktivity_metadata": {
+        "bounty": "$1,000",
+        "severity": "Medium",
+        "date": "July 21, 2021 10:29:24 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2021-22923: Metalink download sends credentials",
+    "url": "https://hackerone.com/reports/1213181",
+    "hacktivity_metadata": {
+        "bounty": "$700",
+        "severity": "Medium",
+        "date": "July 21, 2021 10:28:52 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2021-22922: Wrong content via metalink not discarded",
+    "url": "https://hackerone.com/reports/1213175",
+    "hacktivity_metadata": {
+        "bounty": "$700",
+        "severity": "Medium",
+        "date": "July 21, 2021 10:28:42 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2021-22901: TLS session caching disaster",
+    "url": "https://hackerone.com/reports/1180380",
+    "hacktivity_metadata": {
+        "bounty": "$2,000",
+        "severity": "High",
+        "date": "May 26, 2021 02:24:20 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2021-22898: TELNET stack contents disclosure",
+    "url": "https://hackerone.com/reports/1176461",
+    "hacktivity_metadata": {
+        "bounty": "$1,000",
+        "severity": "Medium",
+        "date": "May 26, 2021 02:24:10 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2021-22897: schannel cipher selection surprise",
+    "url": "https://hackerone.com/reports/1172857",
+    "hacktivity_metadata": {
+        "bounty": "$800",
+        "severity": "Low",
+        "date": "May 26, 2021 02:23:35 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2021-22890: TLS 1.3 session ticket proxy host mixup",
+    "url": "https://hackerone.com/reports/1129529",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "April 30, 2021 00:03:44 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2021-22876: Automatic referer leaks credentials",
+    "url": "https://hackerone.com/reports/1101882",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "April 30, 2021 00:02:48 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Proxy-Authorization header carried to a new host on a redirect",
+    "url": "https://hackerone.com/reports/1086259",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "March 8, 2021 01:25:39 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Inadequate Cryptographic Key Size and Insecure Cryptographic Mode.  File Name :- curl_ntlm_core.c",
+    "url": "https://hackerone.com/reports/1113663",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "March 8, 2021 01:24:09 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2020-8284: trusting FTP PASV responses",
+    "url": "https://hackerone.com/reports/1040166",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "February 9, 2021 08:53:42 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "huge COLUMNS causes progress-bar to buffer overflow",
+    "url": "https://hackerone.com/reports/636013",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "February 8, 2021 00:55:53 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Integer overflow  at line 1603 in the src/operator.c file",
+    "url": "https://hackerone.com/reports/662412",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "February 8, 2021 00:55:42 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Buffer write overflow when forming dns over http request",
+    "url": "https://hackerone.com/reports/694449",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "February 8, 2021 00:55:02 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Resource leak when using a normal site as DOH server",
+    "url": "https://hackerone.com/reports/694988",
+    "hacktivity_metadata": {
+        "severity": "None",
+        "date": "February 8, 2021 00:54:50 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Potential invocation of qsort on uninitialized memory during cookie save",
+    "url": "https://hackerone.com/reports/696822",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "February 8, 2021 00:54:36 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "use after free in cookie.c",
+    "url": "https://hackerone.com/reports/707006",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "February 8, 2021 00:54:25 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "curl on Windows can be forced to execute code via OpenSSL environment variables",
+    "url": "https://hackerone.com/reports/714215",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "February 8, 2021 00:54:17 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Unexpected access to process open files via file:///proc/self/fd/n",
+    "url": "https://hackerone.com/reports/770190",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "February 8, 2021 00:53:52 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Division by zero if terminal width is 2",
+    "url": "https://hackerone.com/reports/774883",
+    "hacktivity_metadata": {
+        "date": "February 8, 2021 00:53:40 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Integer overlow in \"header_append\" function",
+    "url": "https://hackerone.com/reports/627245",
+    "hacktivity_metadata": {
+        "date": "February 8, 2021 00:53:07 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Integer overflow in the source code tool_cb_prg.c",
+    "url": "https://hackerone.com/reports/600359",
+    "hacktivity_metadata": {
+        "date": "February 8, 2021 00:52:50 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Libcurl ocasionally sends HTTPS traffic to port 443 rather than specified port 8080",
+    "url": "https://hackerone.com/reports/637800",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "February 3, 2021 00:50:50 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Poll loop/hang on incomplete HTTP header",
+    "url": "https://hackerone.com/reports/889160",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "January 22, 2021 08:27:41 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "SMB access smuggling via FILE URL on Windows",
+    "url": "https://hackerone.com/reports/726117",
+    "hacktivity_metadata": {
+        "bounty": "$400",
+        "severity": "None",
+        "date": "January 17, 2021 16:12:26 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Double-free of `trailers_buf' on `Curl_http_compile_trailers()` failure",
+    "url": "https://hackerone.com/reports/687734",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "January 12, 2021 06:12:04 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Incorrect IPv6 literal parsing leads to validated connection to unexpected https server.",
+    "url": "https://hackerone.com/reports/688048",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "January 12, 2021 06:11:23 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "SSRF via maliciously crafted URL due to host confusion",
+    "url": "https://hackerone.com/reports/704621",
+    "hacktivity_metadata": {
+        "severity": "Critical",
+        "date": "January 8, 2021 14:03:17 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Race condition with CURL_LOCK_DATA_CONNECT can cause connections to be used at the same time",
+    "url": "https://hackerone.com/reports/724134",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "January 8, 2021 11:07:22 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Heap Buffer Overflow (READ of size 1) in ourWriteOut",
+    "url": "https://hackerone.com/reports/765664",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "January 8, 2021 08:08:01 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "libcurl: SMTP end-of-response out-of-bounds read - CVE-2019-3823",
+    "url": "https://hackerone.com/reports/518097",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "January 8, 2021 08:07:44 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "curl still vulnerable to SMB access smuggling via FILE URL on Windows",
+    "url": "https://hackerone.com/reports/812969",
+    "hacktivity_metadata": {
+        "date": "January 8, 2021 07:16:03 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Curl_auth_create_plain_message integer overflow leads to heap buffer overflow",
+    "url": "https://hackerone.com/reports/872089",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "January 8, 2021 03:27:32 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "curl successfully matches IP address literal in URL against IP address literal in certificate Common Name",
+    "url": "https://hackerone.com/reports/715413",
+    "hacktivity_metadata": {
+        "date": "January 8, 2021 02:18:29 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Only OpenSSL handles a CRL when passed in via CApath ",
+    "url": "https://hackerone.com/reports/713975",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "January 8, 2021 02:09:22 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Abusing URL Parsers by long schema name",
+    "url": "https://hackerone.com/reports/1049624",
+    "hacktivity_metadata": {
+        "severity": "None",
+        "date": "January 8, 2021 01:28:15 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2020-8285: FTP wildcard stack overflow",
+    "url": "https://hackerone.com/reports/1045844",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "January 8, 2021 00:50:22 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Integer overflows in tool_operate.c at line 1541",
+    "url": "https://hackerone.com/reports/661847",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "January 1, 2021 08:40:09 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2020-8286: Inferior OCSP verification",
+    "url": "https://hackerone.com/reports/1048457",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "December 9, 2020 07:26:33 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2019-5435: An integer overflow found in /lib/urlapi.c",
+    "url": "https://hackerone.com/reports/547630",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "December 5, 2020 01:36:11 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2020-8177: curl overwrite local file with -J",
+    "url": "https://hackerone.com/reports/887462",
+    "hacktivity_metadata": {
+        "bounty": "$700",
+        "severity": "Medium",
+        "date": "December 5, 2020 01:33:30 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2020-8169: Partial password leak over DNS on HTTP redirect",
+    "url": "https://hackerone.com/reports/874778",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "December 5, 2020 01:32:06 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2019-5482: Heap buffer overflow in TFTP when using small blksize",
+    "url": "https://hackerone.com/reports/684603",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "November 14, 2020 08:17:25 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2019-5481: krb5: double-free in read_data() after realloc() fail",
+    "url": "https://hackerone.com/reports/686823",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "November 14, 2020 08:16:57 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2020-8231: Connect-only connections can use the wrong connection",
+    "url": "https://hackerone.com/reports/948876",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "November 5, 2020 05:41:13 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Data race conditions reported by helgrind when performing parallel DNS queries in libcurl",
+    "url": "https://hackerone.com/reports/1019457",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "November 4, 2020 14:44:37 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Parallel upload hangs curl if upload file not found",
+    "url": "https://hackerone.com/reports/1019372",
+    "hacktivity_metadata": {
+        "severity": "None",
+        "date": "October 29, 2020 10:24:29 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "curl overwrites local file with -J option if file non-readable, but file writable.",
+    "url": "https://hackerone.com/reports/926638",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "August 1, 2020 10:46:35 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Invalid write (or double free) triggers curl command line tool crash",
+    "url": "https://hackerone.com/reports/875775",
+    "hacktivity_metadata": {
+        "severity": "High",
+        "date": "May 18, 2020 00:23:02 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Port and service scanning on localhost due to improper URL validation.",
+    "url": "https://hackerone.com/reports/773313",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "January 15, 2020 00:38:19 MST"
+    }
+},
+{
+    "team": "curl",
+    "title": "Active Mixed Content over HTTPS",
+    "url": "https://hackerone.com/reports/640532",
+    "hacktivity_metadata": {
+        "severity": "Medium",
+        "date": "November 1, 2019 03:05:22 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Insecure Frame (External)",
+    "url": "https://hackerone.com/reports/640530",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "November 1, 2019 03:05:10 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Signed integer overflow in tool_progress_cb()",
+    "url": "https://hackerone.com/reports/591770",
+    "hacktivity_metadata": {
+        "severity": "None",
+        "date": "October 4, 2019 14:58:05 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2019-5443: Windows Privilege Escalation: Malicious OpenSSL Engine",
+    "url": "https://hackerone.com/reports/608577",
+    "hacktivity_metadata": {
+        "bounty": "$200",
+        "severity": "High",
+        "date": "June 29, 2019 12:24:27 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "CVE-2019-5436: Heap Buffer Overflow at lib/tftp.c",
+    "url": "https://hackerone.com/reports/550696",
+    "hacktivity_metadata": {
+        "bounty": "$200",
+        "severity": "Low",
+        "date": "May 31, 2019 14:35:44 MDT"
+    }
+},
+{
+    "team": "curl",
+    "title": "Github wikis are editable by anyone #Githubwikistakeover",
+    "url": "https://hackerone.com/reports/545052",
+    "hacktivity_metadata": {
+        "severity": "Low",
+        "date": "May 25, 2019 15:13:37 MDT"
+    }
+}
+]
